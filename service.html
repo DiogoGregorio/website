@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <!-- preload bg img -->
+    <link rel="preload" href="abstract-digital-grid-black-background.jpg" as="image"> 
+</head>
+
+<body>
+    
+    <div class="container">
+        <header class="">
+            <a href="#" class="logo">Portfolio.</a>
+
+            <nav class="navbar">
+                <a href="Diogo Gregório.html" class="">Home</a>
+                <a href="about.html" class="">About</a>
+                <a href="portfolio.html" class="">Portfolio</a>
+                <a href="service.html" class="active">Service</a>
+                
+            </nav>
+        </header>
+
+        <section class="service">
+            <div class="service-selection">
+                <a href="#" class="service-box" data-target="service1">Data Engineer</a>
+                <a href="#" class="service-box" data-target="service2">Robotics Engineer</a>
+                <a href="#" class="service-box" data-target="service3">Cloud/DevOps</a>
+            </div>
+
+            
+            <div class="service-content hidden">
+                <h2 class="service-title"></h2>
+                <!-- Service 1 -->
+                <div id="service1" class="service-info hidden">
+                    <img src="dataengineering.png" class="service-img" alt="">
+                    
+                    <div class="column">
+                        <h3>Why I Fit</h3>
+                        <ul>
+                            <li>Internship directly in ETL, SQL, Azure Data Factory, Databricks</li>
+                            <li>Python + structured problem-solving</li>
+                            <li>Comfort working with different cloud systems (AWS, Azure, GCP)</li>
+                            <li>DP-900 + AZ-900 are perfectly aligned</li>
+                        </ul>
+                    </div>
+
+                    <div class="column">
+                        <h3>Skills to Strengthen</h3>
+                        <ul>
+                            <li>SQL performance (window functions, indexing, query optimization)</li>
+                            <li>Data modeling (Kimball, Data Vault)</li>
+                            <li>CI/CD for data pipelines (Azure DevOps / GitHub Actions)</li>
+                            <li>Spark at a deeper level (distributed systems mindset)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div id="service2" class="service-info hidden">
+                    <img src="robotics.png" class="service-img" alt="">
+                    
+                    <div class="column">
+                        <h3>Why I Fit</h3>
+                        <ul>
+                            <li>Strong coursework and projects in control, autonomy, ROS, real system testing</li>
+                            <li>Exposure to sensors, microcontrollers, embedded systems</li>
+                            <li>Thesis in human-robot interaction shows ability to deliver research-based engineering</li>
+                        </ul>
+                    </div>
+
+                    <div class="column">
+                        <h3>Skills to Strengthen</h3>
+                        <ul>
+                            <li>C++ for embedded and ROS2</li>
+                            <li>Gazebo / real-robot debugging workflows</li>
+                            <li>Integration with perception stacks (OpenCV, LiDAR)</li>
+                            <li>Version control for robotics (ROS packages, catkin/colcon organization)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div id="service3" class="service-info hidden">
+                    <img src="cloud.png" class="service-img" alt="">
+                    
+                    <div class="column">
+                        <h3>Why I Fit</h3>
+                        <ul>
+                            <li>Hands-on with Azure services, migrations, architecture documentation</li>
+                            <li>IoT project demonstrates interest in distributed systems + real-world data</li>
+                            <li>Good analytical ability and organization skills from your internship</li>
+                        </ul>
+                    </div>
+
+                    <div class="column">
+                        <h3>Skills to Strengthen</h3>
+                        <ul>
+                            <li>Infrastructure as Code (Terraform, Bicep)</li>
+                            <li>Containerization (Docker + Kubernetes)</li>
+                            <li>Monitoring & logging systems (Grafana, Prometheus, Azure Monitor)</li>
+                            <li>Basic security/zero-trust concepts</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+    <script>
+    const boxes = document.querySelectorAll(".service-box");
+    const infos = document.querySelectorAll(".service-info");
+    const title = document.querySelector(".service-title");
+    const content = document.querySelector(".service-content");
+    const selection = document.querySelector(".service-selection");
+
+    boxes.forEach(box => {
+        box.addEventListener("click", () => {
+            const id = box.dataset.target;
+            const target = document.getElementById(id);
+
+            // Hide selection boxes
+            selection.style.display = "none";
+
+            // Show content wrapper
+            content.classList.remove("hidden");
+            setTimeout(() => content.classList.add("show"), 10);
+
+            // Reset visible content
+            infos.forEach(info => {
+                info.classList.add("hidden");
+                info.classList.remove("show");
+            });
+
+            // Show clicked content
+            target.classList.remove("hidden");
+            setTimeout(() => target.classList.add("show"), 20);
+
+            // Update title smoothly
+            title.textContent = box.textContent;
+            title.classList.add("show");
+        });
+    });
+    </script>
+</body>
+</html>

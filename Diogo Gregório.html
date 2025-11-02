@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <!-- preload bg img -->
+    <link rel="preload" href="abstract-digital-grid-black-background.jpg" as="image"> 
+</head>
+
+<body>
+    
+    <div class="container">
+        <header class="">
+            <a href="#" class="logo">Portfolio.</a>
+
+            <nav class="navbar">
+                <a href="Diogo Gregório.html" class="active">Home</a>
+                <a href="about.html" class="">About</a>
+                <a href="portfolio.html" class="">Portfolio</a>
+                <a href="service.html" class="">Service</a>
+                
+            </nav>
+        </header>
+
+        <section class="home">
+            <div class="home-detail">
+                <h1>Diogo Gregório</h1>
+                <h2>Electrical and Computer Engineer</h2>
+                <p>
+                    I am a twenty-four year old man that just finished an internship and is looking for his first full-time job opportunity.
+I believe I excel at simplifying tasks, organization and teamworking. I am responsible, punctual, creative and enjoy
+interacting and collaborating with individuals of all ages and backgrounds.
+                </p>
+                <div class="download-social">
+                    <a href="Diogo Gregório's CV.pdf" download class="btn">Download CV</a>
+                    <div class="social-icons">
+                        
+                        <a href="https://www.linkedin.com/in/diogo-greg%C3%B3rio-443471290/"><i class="ri-linkedin-fill"></i></a>
+                        <a href="#" id="emailIcon"><i class="ri-mail-fill"></i></a>
+                        <span id="emailText" class="hidden">diogogregorio2511@gmail.com</span>
+                        <a href="#"id="phoneIcon"><i class="ri-phone-fill"></i></a>
+                        <span id="phoneText" class="hidden">+351 927 134 379</span>
+                    </div>
+                </div>
+            </div>
+            <div class="home-img">
+                <div class="img-box">
+                    <img src="linkedin pic.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        document.getElementById("emailIcon").addEventListener("click", function() {
+            document.getElementById("emailText").classList.toggle("hidden");
+        });
+
+        document.getElementById("phoneIcon").addEventListener("click", function() {
+            document.getElementById("phoneText").classList.toggle("hidden");
+        });
+    </script>
+</body>
+</html>

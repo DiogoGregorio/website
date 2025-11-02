@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <!-- preload bg img -->
+    <link rel="preload" href="abstract-digital-grid-black-background.jpg" as="image"> 
+</head>
+
+<body>
+    
+    <div class="container">
+        <header class="">
+            <a href="#" class="logo">Portfolio.</a>
+
+            <nav class="navbar">
+                <a href="Diogo Gregório.html" class="">Home</a>
+                <a href="about.html" class="">About</a>
+                <a href="portfolio.html" class="active">Portfolio</a>
+                <a href="service.html" class="">Service</a>
+                
+            </nav>
+        </header>
+
+        <section class="portfolio">
+            <div class="project-selection">
+                <h1>Some of my projects and certifications.</h1>
+
+                <div class="project-selection-icon">
+                    <img src="IST_Logo.png" id="UniProjects" class="project" data-target="contentA" alt="University Projects" onclick="showProject(this)">
+                    <img src="mscerti.png" id="MicroSoftCerti" class="project" data-target="contentB" alt="Microsoft Certifications" onclick="showProject(this)">
+                    <img src="Avanade1.png" id="AvanadeProjects" class="project" data-target="contentC" alt="Avanade Projects" onclick="showProject(this)">
+                </div>
+            </div>
+
+            <!-- Active display area -->
+            <div class="project-display hidden">
+                <div class="project-active-icon"></div>
+                <div class="text-area-porfolio">
+                    <div id="contentA" class="content-portfolio hidden">
+                        <h2>| Técnico (IST) - Academic & Technical Foundation</h2>
+                        <p>Technical depth and research-driven base, with the objective to show my capability to solve complex engineering problems, apply math and control theory, and implement AI/robotics systems.</p>
+                    
+                        <div class="card-portfolio-container">
+                            <div class="card-portfolio">
+                                <h3>Project 1: Multivariable, Nonlinear and Optimal Control</h3>
+                                <p>Designed a state feedback controller and state observer for a linear system (inverted pendulum), simulated it in SIMULINK, and implemented it in real hardware, using A/D and D/A converters for real-time feedback.</p>
+                                <span>Bridged simulation and real-time implementation by validating control algorithms on a physical inverted pendulum system.</span>
+                            </div>
+                        
+                            <div class="card-portfolio">
+                                <h3>Project 2: Autonomous Systems</h3>
+                                <p>Developed an algorithm for a mobile robot, integrated it into the physical robot, and conducted both quantitative and qualitative performance evaluations. Implemented using ROS (Robot Operating System).</p>
+                                <span>Integrated computational algorithms with ROS-enabled mobile platforms and conducted performance benchmarking</span>
+                            </div>
+                    
+                        </div>
+                        
+                    </div>
+
+                    <div id="contentB" class="content-portfolio hidden">
+                        <h2>| Microsoft Certifications</h2>
+                        <p>Validates my cloud literacy and foundational data knowledge, and supports my transition to real-world systems beyond academia.</p>
+                        <div class="card-portfolio-container">
+                            <div class="card-portfolio">
+                                <h3>Certification 1: AZ-900 - Azure Fundamentals (Sep 2024)</h3>
+                                <p>Introduced to cloud principles, cost management, architecture models, and Azure services (compute, storage, databases).</p>
+                                <span>Developed understanding of Azure governance, networking, and identity fundamentals.</span>
+                            </div>
+                        
+                            <div class="card-portfolio">
+                                <h3>Certification 2: DP-900 - Azure Data Fundamentals (Jan 2025)</h3>
+                                <p>Focused on data storage, processing, and analysis concepts, including relational/non-relational databases, analytics, and data ingestion tools.</p>
+                                <span>Validated knowledge of Azure data workloads and the fundamentals of relational and analytical data solutions.</span>
+                            </div>
+                    
+                        </div>
+                    </div>
+
+                    <div id="contentC" class="content-portfolio hidden">
+                        <h2>| Avanade Internship - Professional & Cloud Data Experience</h2>
+                        <p>Where my academic foundation met industry practice, at the intersection of data, cloud migration, and system analysis.</p>
+                        <div class="card-portfolio-container">
+                            <div class="card-portfolio"> <!-- Add Santander logo -->
+                                <h3>Project 1: Santander - ETL and Data Optimization</h3>
+                                <p>Developed and optimized Python scripts and SQL queries for ETL processes, preparing data for visualization. Improved table structures for accessibility and performance.</p>
+                                <span>Engineered and tuned ETL processes to enhance data performance and visualization readiness for Santander project.</span>
+                            </div>
+                        
+                            <div class="card-portfolio"><!-- Add EDP logo -->
+                                <h3>Project 2: EDP - Azure Resource Migration and Documentation</h3>
+                                <p>Supported planning and documentation for the migration of Azure resource groups from a centralized Data Lake to business-unit Datahubs. Investigated pipelines in Azure Data Factory, Databricks notebooks, and multi-cloud integration processes (AWS, GCP, Oracle).</p>
+                                <span>Contributed to Azure cloud resource migration planning and data pipeline mapping for a major EDP transformation project.</span>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+    function showProject(icon) {
+        const target = document.getElementById(icon.dataset.target);
+        const selection = document.querySelector('.project-selection');
+        const display = document.querySelector('.project-display');
+        const textArea = document.querySelector('.text-area-porfolio');
+
+        // Hide main title
+        selection.classList.add('hide');
+
+        // Hide all icons except clicked one
+        document.querySelectorAll('.project').forEach(i => {
+            if (i !== icon) i.classList.add('hidden');
+            i.classList.remove('active');
+        });
+
+        // Activate clicked icon
+        icon.classList.add('active');
+
+        // Show content area
+        display.classList.remove('hidden');
+        display.classList.add('show');
+
+        // Fill text-area with target content
+        textArea.innerHTML = target.innerHTML;
+        setTimeout(() => textArea.classList.add('show'), 100);
+    }
+    </script>
+</body>
+</html>
