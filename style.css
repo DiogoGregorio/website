@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+
+/* Add a dark background color as fallback */
+body {
+    height: 100vh;
+    background: #000 url("abstract-digital-grid-black-background.jpg") no-repeat center / cover;
+    padding: 50px 5%;
+    overflow-y: auto; /* allow natural scrolling */
+}
+
+/* Make container visible earlier */
+.container {
+    position: relative;
+    min-height: 80vh; /* allows growth beyond screen height */
+    background: rgba(0, 5, 17, 0.75);
+    border-radius: 30px;
+    backdrop-filter: blur(2px);
+    opacity: 0;
+    animation: fade-in 1s ease forwards;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 30px; /* add space below long content */
+    overflow: visible; /* ensure nothing is clipped */
+}
+
+
+@keyframes fade-in {
+    100% { opacity: 1; }
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.animated {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+@keyframes slide-in {
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: rgb(14, 14, 27);
+    font-weight: 500;
+    margin-left: 35px;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+}
+
+.navbar a:hover, 
+.navbar a.active {
+    border-color: #fff;
+}
+
+.hidden {
+    display: none;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #333;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    padding: 120px 5% 0;
+    color: #fff;
+    animation-delay: 1.5s;
+}
+
+.home-detail h1 {
+    font-size: 55px;
+    line-height: 1;
+}
+
+.home-detail h2 {
+    font-size: 32px;
+}
+
+.home-detail p {
+    margin: 10px 0 20px
+}
+
+.home-detail .download-social {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #fff;
+    border: 2px solid white;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btn:hover {
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+
+
+.home-detail .social-icons {
+    margin-left: 20px;
+}
+
+.home-detail .social-icons a {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size:20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.home-detail .social-icons a:hover {
+    background: #fff;
+    box-shadow: 0 0 10px #fff;
+    color:#333;
+}
+
+.home-img .img-box {
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #fff;
+    overflow: hidden;
+}
+
+.home-img .img-box img {
+    position: relative;
+    top:  0px;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.icon-selection {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /*padding-top: 200px;  Increased from ~100px -> pushes icons lower */
+    transition: .4s ease-in-out;
+}
+
+.icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;      /* increased */
+    height: 200px;     /* increased */
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 150px;  /* bigger icons */
+    cursor: pointer;
+    box-shadow: 0 0 10px #fff;
+    transition: .4s;
+}
+
+/* .icon.active {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    margin-bottom: 550px;
+    box-shadow: none;
+} */
+
+.icon:hover {
+    background: #fff;
+    box-shadow: none;
+    color: #333;
+    transform: scale(1.15);
+}
+
+.content {
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    animation: fade-in 0.4s ease forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+/* ABOUT */
+
+.about {
+    display: block;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 100px; /* ↓ reduced gap */
+    margin-left: auto; /* → icon moves slightly to the right */
+    margin-top: 120px;
+}
+.about.active {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-start;
+    margin-top: 120px;
+}
+
+/* Make all icons align consistently when active */
+.about.active .icon {
+    position: absolute;
+    top: 130px;     /* Adjust vertical placement */
+    left: 20px;     /* Adjust horizontal placement */
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    box-shadow: none;
+    transition: all 0.5s ease;
+}
+
+.content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    border-left: 4px solid #fff;
+    padding-left: 15px;
+    margin-left: 40px;
+}
+
+.content p {
+    color: #ccc;
+    margin-bottom: 40px;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: left;
+    transition: .4s ease;
+    margin-left: 40px;
+    
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.1);
+}
+
+.card img {
+    width: 80px; /* smaller image size */
+    height: 80px; /* smaller image size */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    filter: brightness(0.85);
+    transition: .3s ease;
+}
+
+.card img:hover {
+    filter: brightness(1);
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.card p {
+    color: #ccc;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.card span {
+    display: block;
+    font-size: 13px;
+    color: #aaa;
+}
+
+#content3 img {
+    width: 80px;     /* make them MUCH smaller */
+    height: 80px;    /* force consistent size */
+    object-fit: contain; /* keep logo proportions clean */
+    margin: 10px;    /* nice spacing between them */
+}
+
+/* PORTFOLIO */
+
+.project-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px; /* push section down a bit */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    transition: all 0.6s ease;
+    flex-direction: column; /* stack heading above images */
+}
+
+.project-selection h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+/* Hide heading when active */
+.project-selection.hide h1 {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.project-selection-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    transition: all 0.6s ease;
+}
+
+
+/* PNG Icon styling */
+.project {
+    width: 150px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.project:hover {
+    transform: scale(1.3);
+}
+
+/* When clicked / active */
+.project.active {
+    position: absolute;
+    bottom: 240px; /* move icon slightly up */
+    left: 70px; /* move further to content */
+    width: 80px; /* slightly larger for balance */
+    transform: none;
+    z-index: 10;
+}
+                   
+/* Icons fade away when inactive */
+.project.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.6);
+}
+
+/* The content wrapper */
+.project-display {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 120px 5% 80px; /* lowered padding so content appears higher */
+    transition: all 0.8s ease;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.project-display.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-display.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* ---------- TEXT + CONTENT ---------- */
+
+.text-area-porfolio {
+    color: #fff;
+    width: 70%;
+    margin-left: 120px; /* keeps text aligned to right of icon */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.text-area-porfolio.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.text-area-porfolio h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.text-area-porfolio p {
+    margin-bottom: 40px; /* space between paragraph and cards */
+    line-height: 1.6;
+}
+
+/* ---------- CARDS ---------- */
+
+.card-portfolio-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card-portfolio {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 20px;
+    width: 48%; /* two cards per row */
+    transition: .4s ease;
+    box-sizing: border-box;
+}
+
+.card-portfolio:hover {
+    background: rgba(255,255,255,0.1);
+    transform: translateY(-3px);
+}
+
+.card-portfolio h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.card-portfolio p {
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.card-portfolio span {
+    color: #aaa;
+    font-size: 13px;
+}
+
+/* ---------- RESPONSIVENESS ---------- */
+
+@media (max-width: 900px) {
+    .project.active {
+        top: 100px;
+        left: 40px;
+        width: 70px;
+    }
+
+    .text-area-porfolio {
+        margin-left: 80px;
+        width: 80%;
+    }
+
+    .card-portfolio-container {
+        flex-direction: column;
+    }
+
+    .card-portfolio {
+        width: 100%;
+    }
+}
+
+/* ---------- Images Tweaks ---------- */
+
+/* Move Microsoft certification logo a bit lower when active */
+#MicroSoftCerti.active {
+    bottom: 220px; /* slightly lower than default 240px */
+}
+
+/* Move Avanade logo a bit higher when active */
+#AvanadeProjects.active {
+    bottom: 280px; /* slightly higher than default 240px */
+}
+
+/* SERVICE */
+
+/* Center items */
+.service-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px; /* spacing between boxes */
+    padding-top: 150px;
+}
+
+/* Style the square buttons */
+.service-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;     /* square width */
+    height: 200px;    /* square height */
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px; /* subtle rounding */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #fff;
+    
+    transition: .4s ease;
+}
+
+/* Hover animation */
+.service-box:hover {
+    background: #fff;
+    color: #111;
+    box-shadow: 0 0 20px #fff;
+    transform: scale(1.07);
+}
+
+.service-title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px; /* Space above content */
+    margin-left: 480px;
+    opacity: 0;
+    transform: translateX(0);
+    transition: .6s ease;
+}
+
+.service-title.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.service-content {
+    width: 100%;
+    margin-top: 80px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: .7s ease;
+}
+
+.service-content.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.service-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Image - Why Fit - Skills */
+    gap: 50px;
+    align-items: center;
+    padding: 20px 5%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: .6s ease .2s;
+}
+
+.service-info.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.service-img {
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 2px #fff);
+    transition: .4s ease;
+}
+
+
+.column {
+    background: rgba(255,255,255,0.08);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    transition: .5s ease;
+}
+
+.column h3 {
+    color: #fff;
+    margin-bottom: 10px;
+    transition: .6s ease;
+}
+
+.column li {
+    color: #ddd;
+    margin-bottom: 8px;
+}
+
+.hidden {
+    display: none !important;
+}

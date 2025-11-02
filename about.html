@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <!-- preload bg img -->
+    <link rel="preload" href="abstract-digital-grid-black-background.jpg" as="image"> 
+</head>
+
+<body>
+    
+    <div class="container">
+        <header class="">
+            <a href="#" class="logo">Portfolio.</a>
+
+            <nav class="navbar">
+                <a href="Diogo Gregório.html" class="">Home</a>
+                <a href="about.html" class="active">About</a>
+                <a href="portfolio.html" class="">Portfolio</a>
+                <a href="service.html" class="">Service</a>
+                
+            </nav>
+        </header>
+            
+        <section class="about">
+
+            <div class="icon-selection">
+                <a href="#" id="SoftwareIcon" class="icon" data-target="content1"><i class="ri-robot-2-line"></i></a>
+                <a href="#" id="MicroEletronicsIcon" class="icon" data-target="content2"><i class="ri-wireless-charging-line"></i></a>
+                <a href="#" id="SportsIcon" class="icon" data-target="content3"><i class="ri-football-fill"></i></a>
+                <a href="#" id="WorkIcon" class="icon" data-target="content4"><i class="ri-briefcase-3-line"></i></a>
+            </div>
+
+            <!-- Hidden content -->
+            <div class="text-area">
+                <div id="content1" class="content hidden">
+                    <h2>Software</h2>
+                    <p>Projects focused on intelligent systems, cloud development, and data-driven automation.</p>
+                    
+                    <div class="about-grid">
+                        <div class="card">
+                            <img src="Avanade1.png" alt="Avanade Internship">
+                            <h3>Avanade - Data Analyst Intern</h3>
+                            <p>ETL pipelines in Python & SQL, data orchestration with Azure Data Factory, Databricks integration.</p>
+                            <span>Python | SQL | Azure | Databricks | Cloud</span>
+                        </div>
+
+                        <div class="card">
+                            <img src="ml.png" alt="Machine Learning">
+                            <h3>Machine Learning Projects</h3>
+                            <p>Regression and classification model selection, performance tuning and data preprocessing.</p>
+                            <span>Python | Scikit-learn | Pandas | TensorBoard</span>
+                        </div>
+
+                        <div class="card">
+                            <img src="thesis.png" alt="Thesis">
+                            <h3>Thesis - Personalized Interaction for Social Robots</h3>
+                            <p>Adaptive behavior in rehabilitation coaching robots using AI-based feedback models.</p>
+                            <span>Python | TensorBoard | ROS</span>
+                        </div>
+
+                        <div class="card">
+                            <img src="control.png" alt="Control Systems">
+                            <h3>Control Systems Simulation</h3>
+                            <p>Development of multivariable control algorithms in MATLAB/Simulink for robotic systems.</p>
+                            <span>MATLAB | Simulink</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content2" class="content hidden">
+                    <h2>Electronics, IoT & Optoelectronics</h2>
+                    <p>Projects focused on sensor integration, signal processing, and microelectronic systems.</p>
+                    
+                    <div class="about-grid">
+                        <div class="card">
+                            <img src="iot.png" alt="IoT Fire Detection">
+                            <h3>IoT Fire Detection System</h3>
+                            <p>Environmental monitoring with IoT sensors for fire and air quality detection, integrated with mobile control.</p>
+                            <span>IoT | Arduino | Sensors | Android</span>
+                        </div>
+
+                        <div class="card">
+                            <img src="opto.png" alt="Optoelectronics Project">
+                            <h3>Optoelectronics Project</h3>
+                            <p>Laser-based distance measurement system using microcontroller-controlled transmitter/receiver pairs.</p>
+                            <span>Optoelectronics | Microcontrollers | C</span>
+                        </div>
+
+                        <div class="card">
+                            <img src="uav.png" alt="UAV Project">
+                            <h3>UAV Mapping & Sensing System</h3>
+                            <p>Development of UAV-based mapping and data collection platform for environmental monitoring.</p>
+                            <span>IoT | Sensors | Data Transmission</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="content3" class="content hidden">
+                    <h2>Sports</h2>
+                    <p>My passion for sports focus mostly on Formula One and Football.</p>
+
+                    <div class="about-grid">
+                        <div class="card">
+                            <img src="f1logo.png" alt="Formula One">
+                            <h3>Formula One</h3>
+                            <p>Have been watching since I was a child and it was one of the main reasons that made me go into engineering in the first place.</p>
+                            <p>Went to the 2012 European GP in Valencia and the 2025 Hungarian GP in Budapest.</p>
+                            <p>One of my favourite hobbies is karting.</p>
+                            
+                        </div>
+
+                        <div class="card">
+                            <img src="Borussia-Dortmund-Logo.png" alt="Borussia Dortmund">
+                            <img src="G_D_Chaves.png" alt="G_D_Chaves">
+                            <h3>Football</h3>
+                            <p>Have been playing football since I remember.</p>
+                            <p>Played for the Benfica academy from 10 to 16 years old as a left back </p>
+                            <p>My favourite portuguese team is GD Chaves because of my grandparents and my favourite international team is Borussia Dortmund.</p>
+                            
+                        </div>
+                    </div>                    
+                </div>
+
+                <div id="content4" class="content hidden">
+                    <h2>Work besides work</h2>
+                    <p>I tutored Mathematics during my Master's and also help my father with his café sometimes.</p>
+                    
+                    <div class="about-grid">
+                        <div class="card">
+                            <img src="tutor.png" alt="Tutoring">
+                            <h3>Tutoring</h3>
+                            <p>Did a part-time tutoring high school maths while finishing my master degree.</p>
+                            <p>Tutored children from 8 to 17 years old on Math and helped them prepping for the finals.</p>
+                            <p>Did my tutoring both remotely and presencial.</p>
+                            
+                        </div>
+
+                        <div class="card">
+                            <img src="café.png" alt="café">
+                            <h3>Working at a Café</h3>
+                            <p>Have been helping my dad settling in on his new project.</p>
+                            <p>Had some expperience with some events so I've been giving some advice while also being in charge of the drinks.</p>
+                        </div>
+                    </div>         
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+
+        const icons = document.querySelectorAll('.icon');
+        const contents = document.querySelectorAll('.content');
+        const textArea = document.querySelector('.text-area');
+        const aboutSection = document.querySelector('.about');
+        const iconsArea = document.querySelector('.icon-selection');
+
+        icons.forEach(icon => {
+            icon.addEventListener('click', () => {
+
+                // Move into 2-column layout
+                aboutSection.classList.add('active');
+
+                // Hide ALL icons first
+                icons.forEach(i => i.style.display = "none");
+
+                // Show only clicked icon
+                icon.classList.add('active');
+                icon.style.display = "inline-flex";
+
+                // Reveal selected content
+                contents.forEach(c => c.classList.add('hidden'));
+                textArea.classList.add('show');
+                document.getElementById(icon.dataset.target).classList.remove('hidden');
+            });
+        });
+
+    </script>
+</body>
+</html>
