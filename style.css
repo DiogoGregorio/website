@@ -846,7 +846,7 @@ header {
     /* Align social icons in a row below the Download button */
     .home-detail .social-icons {
         display: flex;
-        justify-content: flex-start; /* Align to the left */
+        justify-content: left; /* Align to the left */
         margin-top: 150px; /* Space between button and icons */
     }
  
