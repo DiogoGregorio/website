@@ -688,6 +688,16 @@ header {
     .download-social {
         justify-content: center;
     }
+
+    .navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: rgb(14, 14, 27);
+    font-weight: 500;
+    margin-left: 35px;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+    }
 }
 
 @media screen and (max-width: 900px) {
