@@ -874,18 +874,67 @@ header {
         font-size: 20px;
     }
 
-    .home-detail h1 {
-        font-size: 30px;
-        margin-top: 50px;
-        
+    /* Keep titles higher and left-aligned inside the container */
+    .home-detail {
+        text-align: left;
+        width: 100%;
+        padding-left: 5%;
+        box-sizing: border-box;
     }
 
+    .home-detail h1 {
+        font-size: 30px;
+        margin-top: 0;      /* higher up */
+        margin-bottom: 6px;
+        line-height: 1.05;
+    }
+
+    .home-detail h2 {
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .home-detail p {
+        text-align: left;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    /* Download button and social icons in a single horizontal row, left-aligned */
     .btn {
         padding: 8px 20px;
         font-size: 14px;
     }
 
+    .home-detail .download-social {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        justify-content: flex-start;
+        margin-top: 8px;
+    }
+
+    .home-detail .social-icons {
+        display: flex;
+        gap: 8px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .home-detail .social-icons a {
+        margin: 0;
+    }
+
     .content {
         padding: 15px;
+    }
+
+    /* Slightly reduce image size to keep layout compact */
+    .home-img .img-box {
+        width: 180px;
+        height: 180px;
+        margin-top: 10px;
     }
 }
