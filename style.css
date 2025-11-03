@@ -884,6 +884,7 @@ header {
 
     .home-detail h1 {
         font-size: 30px;
+        text-align: left;
         margin-top: 0;      /* higher up */
         margin-bottom: 6px;
         line-height: 1.05;
@@ -891,6 +892,7 @@ header {
 
     .home-detail h2 {
         font-size: 18px;
+        text-align: left;
         margin-top: 0;
         margin-bottom: 8px;
     }
