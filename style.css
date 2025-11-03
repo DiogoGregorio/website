@@ -672,7 +672,7 @@ header {
     .home {
         flex-direction: column;
         padding: 100px 5% 0;
-        text-align: center;
+        text-align: left;
     }
 
     .home-detail {
@@ -686,7 +686,7 @@ header {
     }
 
     .download-social {
-        justify-content: center;
+        justify-content: left;
     }
 
     .navbar a {
