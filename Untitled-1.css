@@ -1,0 +1,273 @@
+/* General responsive adjustments */
+@media screen and (max-width: 1200px) {
+    .home {
+        flex-direction: column;
+        padding: 100px 5% 0;
+        text-align: center;
+    }
+
+    .home-detail {
+        margin-bottom: 50px;
+    }
+
+    .home-img .img-box {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .download-social {
+        justify-content: center;
+    }
+
+    .navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: rgb(14, 14, 27);
+    font-weight: 500;
+    margin-left: 35px;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .home-detail h1 {
+        font-size: 45px;
+    }
+
+    .home-detail h2 {
+        font-size: 28px;
+    }
+
+    .icon {
+        width: 150px;
+        height: 150px;
+        font-size: 100px;
+    }
+
+    .icon-selection {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card-portfolio-container {
+        flex-direction: column;
+    }
+
+    .card-portfolio {
+        width: 100%;
+    }
+
+    .project-selection-icon {
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .service-selection {
+        gap: 30px;
+    }
+    
+    .service-box {
+        width: min(180px, 45vw);
+        height: min(180px, 45vw);
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .navbar a {
+        margin: 0;
+    }
+
+    .home-detail h1 {
+        font-size: 35px;
+    }
+
+    .home-img .img-box {
+        width: 250px;
+        height: 250px;
+    }
+
+    .icon {
+        width: 120px;
+        height: 120px;
+        font-size: 80px;
+    }
+
+    .content h2 {
+        font-size: 28px;
+    }
+
+    .service-info {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+    .service-box {
+        width: min(160px, 80vw);
+        height: min(160px, 80vw);
+    }
+}
+
+
+/* Handle landscape orientation */
+@media screen and (orientation: landscape) {
+    header {
+        position: relative;
+        padding: 15px 5%;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .navbar a {
+        margin: 0;
+    }
+
+    .container {
+        min-height: auto;
+        padding-bottom: 50px;
+    }
+
+    .home {
+        min-height: auto;
+        padding: 80px 5% 0;
+        padding-top: 150px; /* Increased to account for vertical nav */
+    }
+
+    .home-detail h1 {
+        font-size: 40px; /* Slightly smaller */
+        justify-content: left; /* Align to the left */
+    }
+
+    .home-detail h2 {
+        font-size: 24px; /* Slightly smaller */
+        justify-content: left; /* Align to the left */
+    }
+
+    /* Align social icons in a row below the Download button */
+    .home-detail .social-icons {
+        display: flex;
+        justify-content: left; /* Align to the left */
+        margin-top: 150px; /* Space between button and icons */
+    }
+ 
+    .home-img .img-box {
+        width: 200px;
+        height: 200px;
+    }
+
+    .icon-selection {
+        padding-top: 100px;
+    }
+
+    .about {
+        margin-top: 180px;
+    }
+
+    .service {
+        padding-top: 180px;
+    }
+}
+
+/* Ensure content is readable on very small devices */
+@media screen and (max-width: 350px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    /* Keep titles higher and left-aligned inside the container */
+    .home-detail {
+        text-align: left;
+        width: 100%;
+        padding-left: 5%;
+        box-sizing: border-box;
+    }
+
+    .home-detail h1 {
+        font-size: 30px;
+        text-align: left;
+        margin-top: 0;      /* higher up */
+        margin-bottom: 6px;
+        line-height: 1.05;
+    }
+
+    .home-detail h2 {
+        font-size: 18px;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .home-detail p {
+        text-align: left;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    /* Download button and social icons in a single horizontal row, left-aligned */
+    .btn {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .home-detail .download-social {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        justify-content: flex-start;
+        margin-top: 8px;
+    }
+
+    .home-detail .social-icons {
+        display: flex;
+        gap: 8px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .home-detail .social-icons a {
+        margin: 0;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    /* Slightly reduce image size to keep layout compact */
+    .home-img .img-box {
+        width: 180px;
+        height: 180px;
+        margin-top: 10px;
+    }
+}
