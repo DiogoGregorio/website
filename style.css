@@ -655,3 +655,161 @@ header {
 .hidden {
     display: none !important;
 }
+
+/* General responsive adjustments */
+@media screen and (max-width: 1200px) {
+    .home {
+        flex-direction: column;
+        padding: 100px 5% 0;
+        text-align: center;
+    }
+
+    .home-detail {
+        margin-bottom: 50px;
+    }
+
+    .home-img .img-box {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .download-social {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .home-detail h1 {
+        font-size: 45px;
+    }
+
+    .home-detail h2 {
+        font-size: 28px;
+    }
+
+    .icon {
+        width: 150px;
+        height: 150px;
+        font-size: 100px;
+    }
+
+    .icon-selection {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card-portfolio-container {
+        flex-direction: column;
+    }
+
+    .card-portfolio {
+        width: 100%;
+    }
+
+    .project-selection-icon {
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .service-selection {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar a {
+        margin: 0;
+    }
+
+    .home-detail h1 {
+        font-size: 35px;
+    }
+
+    .home-img .img-box {
+        width: 250px;
+        height: 250px;
+    }
+
+    .icon {
+        width: 120px;
+        height: 120px;
+        font-size: 80px;
+    }
+
+    .content h2 {
+        font-size: 28px;
+    }
+
+    .service-info {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+
+/* Handle landscape orientation */
+@media screen and (orientation: landscape) and (max-height: 600px) {
+    .container {
+        min-height: auto;
+        padding-bottom: 50px;
+    }
+
+    .home {
+        min-height: auto;
+        padding: 80px 5% 0;
+    }
+
+    .home-img .img-box {
+        width: 200px;
+        height: 200px;
+    }
+
+    .icon-selection {
+        padding-top: 100px;
+    }
+}
+
+/* Ensure content is readable on very small devices */
+@media screen and (max-width: 350px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    .home-detail h1 {
+        font-size: 30px;
+    }
+
+    .btn {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .content {
+        padding: 15px;
+    }
+}
