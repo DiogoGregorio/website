@@ -830,7 +830,7 @@ header {
     .home {
         min-height: auto;
         padding: 80px 5% 0;
-        padding-top: 80px; /* Increased to account for vertical nav */
+        padding-top: 150px; /* Increased to account for vertical nav */
     }
 
     .home-detail h1 {
@@ -876,7 +876,8 @@ header {
 
     .home-detail h1 {
         font-size: 30px;
-        padding-top: 30px;
+        margin-top: auto;
+        
     }
 
     .btn {
