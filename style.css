@@ -802,7 +802,7 @@ header {
 
     .navbar {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px;
         width: 100%;
         align-items: center;
@@ -823,6 +823,23 @@ header {
         padding-top: 180px; /* Increased to account for vertical nav */
     }
 
+    .home-detail h1 {
+        font-size: 40px; /* Slightly smaller */
+        text-align: left; /* Align to the left */
+    }
+
+    .home-detail h2 {
+        font-size: 24px; /* Slightly smaller */
+        text-align: left; /* Align to the left */
+    }
+
+    /* Align social icons in a row below the Download button */
+    .home-detail .social-icons {
+        display: flex;
+        justify-content: flex-start; /* Align to the left */
+        margin-top: 10px; /* Space between button and icons */
+    }
+ 
     .home-img .img-box {
         width: 200px;
         height: 200px;
