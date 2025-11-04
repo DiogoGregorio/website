@@ -182,17 +182,12 @@ header {
 }
 
 .icon-selection {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px; /* adjust space between icons */
+    gap: 50px;
     flex-wrap: wrap;
-    width: 100%;
-    max-width: 90%;
+    height: calc(100vh - 200px); /* adjusts for header height */
 }
 
 .icon {
