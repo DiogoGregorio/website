@@ -31,7 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-bottom: 30px; /* add space below long content */
+    padding-bottom: 50px 5%; /* equal padding on top & bottom */
     overflow: visible; /* ensure nothing is clipped */
 }
 
