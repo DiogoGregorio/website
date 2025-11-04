@@ -185,7 +185,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     padding-top: 120px;
     flex-wrap: wrap;
     max-width: 90%;
