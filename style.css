@@ -270,7 +270,7 @@ header {
 /* Make all icons align consistently when active */
 .about.active .icon {
     position: absolute;
-    top: 130px;     /* Adjust vertical placement */
+    top: 100px;     /* Adjust vertical placement */
     left: 20px;     /* Adjust horizontal placement */
     width: 70px;
     height: 70px;
