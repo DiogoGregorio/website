@@ -189,11 +189,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
-    padding-top: 80px;
+    gap: 50px; /* adjust space between icons */
     flex-wrap: wrap;
+    width: 100%;
     max-width: 90%;
-    margin: 0 auto;
 }
 
 .icon {
