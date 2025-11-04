@@ -182,17 +182,14 @@ header {
 }
 
 .icon-selection {
-    position: absolute;
-    top: 60%; /* was 50% — move slightly lower */
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    padding-top: 120px;
     flex-wrap: wrap;
-    width: 100%;
     max-width: 90%;
+    margin: 0 auto;
 }
 
 .icon {
@@ -270,7 +267,7 @@ header {
 /* Make all icons align consistently when active */
 .about.active .icon {
     position: absolute;
-    top: 100px;     /* Adjust vertical placement */
+    top: 130px;     /* Adjust vertical placement */
     left: 20px;     /* Adjust horizontal placement */
     width: 70px;
     height: 70px;
