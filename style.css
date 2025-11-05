@@ -196,13 +196,13 @@ header {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: min(150px, 20vw);      /* Responsive sizing */
-    height: min(150px, 20vw);     /* Responsive sizing */
+    width: 150px;      
+    height: 150px;     
     border: 2px solid #fff;
     border-radius: 50%;
     text-decoration: none;
     color: #fff;
-    font-size: min(100px, 13vw);  /* Responsive icon size */
+    /* font-size: min(100px, 13vw);  Responsive icon size */
     cursor: pointer;
     box-shadow: 0 0 10px #fff;
     transition: .4s;
