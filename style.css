@@ -359,7 +359,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-top: 30px; /* push section down a bit */
+    margin-top: 25px; /* push section down a bit */
     position: relative;
     top: auto;
     left: auto;
@@ -373,7 +373,7 @@ header {
 .project-selection h1 {
     color: #fff;
     text-align: center;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 50px;
     padding: 0 20px;
@@ -391,7 +391,7 @@ header {
     align-items: center;
     gap: 100px;
     transition: all 0.6s ease;
-    margin-top: 30px;
+    margin-top: 25px;
     flex-wrap: wrap;
 }
 
