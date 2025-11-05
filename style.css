@@ -389,7 +389,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
     transition: all 0.6s ease;
     margin-top: 25px;
     flex-wrap: wrap;
