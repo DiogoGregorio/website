@@ -202,7 +202,7 @@ header {
     border-radius: 50%;
     text-decoration: none;
     color: #fff;
-    /* font-size: min(100px, 13vw);  Responsive icon size */
+    font-size: 100px;  /* Responsive icon size */
     cursor: pointer;
     box-shadow: 0 0 10px #fff;
     transition: .4s;
