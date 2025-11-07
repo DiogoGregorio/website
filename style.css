@@ -87,7 +87,7 @@ header {
     border-color: #fff;
 }
 
-.hidden {
+.social-icons.hidden {
     display: none;
     font-size: 14px;
     margin-left: 10px;
@@ -241,7 +241,7 @@ header {
     }
 }
 
-.hidden {
+.content.hidden {
     display: none;
 }
 
@@ -681,7 +681,11 @@ header {
     margin-bottom: 8px;
 }
 
-.hidden {
+.service-content.hidden {
+    display: none
+}
+
+.service-info.hidden {
     display: none
 }
 
