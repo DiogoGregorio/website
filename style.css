@@ -268,10 +268,10 @@ header {
 .about.active .icon {
     position: absolute;
     top: 130px;     /* Adjust vertical placement */
-    left: 50px;     /* Adjust horizontal placement */
-    width: 200px;
-    height: 200px;
-    min-height: 100vh;
+    left: 35px;     /* Adjust horizontal placement */
+    width: 100px;
+    height: 100px;
+    /* min-height: 100vh; */
     font-size: 60px;
     box-shadow: none;
     transition: all 0.5s ease;
