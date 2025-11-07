@@ -268,9 +268,9 @@ header {
 .about.active .icon {
     position: absolute;
     top: 130px;     /* Adjust vertical placement */
-    left: 25px;     /* Adjust horizontal placement */
-    width: 70px;
-    height: 70px;
+    left: 30px;     /* Adjust horizontal placement */
+    width: 80px;
+    height: 80px;
     /* min-height: 100vh; */
     font-size: 60px;
     box-shadow: none;
