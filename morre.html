@@ -176,9 +176,12 @@
                 icon.style.display = "inline-flex";
 
                 // Reveal selected content
-                contents.forEach(c => c.classList.add('hidden'));
+                contents.forEach(c => {
+                    c.style.display = "none";
+                });
                 textArea.classList.add('show');
-                document.getElementById(icon.dataset.target).classList.remove('hidden');
+                const targetContent = document.getElementById(icon.dataset.target);
+                targetContent.style.display = "block";
             });
         });
 

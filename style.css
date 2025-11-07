@@ -301,15 +301,20 @@ header {
     color: #fff;
     width: 90%; /* give more breathing room */
     margin-left: 0; /* remove gap entirely */
-    /* opacity: 0; */
+    opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
+.text-area.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* Remove excess left margins inside text area */
-/* .text-area h2,
+.text-area h2,
 .text-area p,
-.about-grid, */
+.about-grid,
 
 .card {
     background: rgba(255,255,255,0.05);
