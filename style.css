@@ -307,9 +307,9 @@ header {
 }
 
 /* Remove excess left margins inside text area */
-.text-area h2,
+/* .text-area h2,
 .text-area p,
-.about-grid,
+.about-grid, */
 
 .card {
     background: rgba(255,255,255,0.05);
