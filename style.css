@@ -269,8 +269,8 @@ header {
     position: absolute;
     top: 130px;     /* Adjust vertical placement */
     left: 50px;     /* Adjust horizontal placement */
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     min-height: 100vh;
     font-size: 60px;
     box-shadow: none;
