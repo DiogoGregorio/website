@@ -271,6 +271,7 @@ header {
     left: 20px;     /* Adjust horizontal placement */
     width: 70px;
     height: 70px;
+    min-height: 100vh;
     font-size: 40px;
     box-shadow: none;
     transition: all 0.5s ease;

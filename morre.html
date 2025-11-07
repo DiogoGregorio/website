@@ -167,19 +167,20 @@
 
                 // Move into 2-column layout
                 aboutSection.classList.add('active');
+                textArea.classList.add('show');
 
                 // Hide ALL icons first
+                icons.forEach(i => i.classList.remove('active'));
                 icons.forEach(i => i.style.display = "none");
 
                 // Show only clicked icon
                 icon.classList.add('active');
                 icon.style.display = "inline-flex";
 
-                // Reveal selected content
-                contents.forEach(c => {
-                    c.style.display = "none";
-                });
-                textArea.classList.add('show');
+                // Hide all content
+                contents.forEach(c => c.classList.add('hidden'));
+
+                // Show selected content;
                 const targetContent = document.getElementById(icon.dataset.target);
                 targetContent.style.display = "block";
             });
