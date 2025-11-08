@@ -449,7 +449,7 @@ header {
     align-items: flex-start;
     gap: 40px;
     padding: 0px 5% 60px; /* much less top padding */
-    margin-top: -80px; /* pull section upward */
+    margin-top: -200px; /* pull section upward */
     transition: all 0.8s ease;
     opacity: 0;
     transform: translateY(30px);
