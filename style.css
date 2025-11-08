@@ -448,7 +448,7 @@ header {
     display: flex;
     align-items: flex-start;
     gap: 40px;
-    padding: 120px 5% 80px; /* lowered padding so content appears higher */
+    padding: 50px 5% 80px; /* lowered padding so content appears higher */
     transition: all 0.8s ease;
     opacity: 0;
     transform: translateY(30px);
