@@ -471,6 +471,7 @@ header {
     color: #fff;
     width: 70%;
     margin-left: 120px; /* keeps text aligned to right of icon */
+    margin-top: -40px; /* lifts the content itself */
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.6s ease, transform 0.6s ease;
