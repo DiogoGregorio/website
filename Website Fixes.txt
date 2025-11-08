@@ -2,7 +2,7 @@ Website Fixes:
 
 Home -> sem problemas
 
-About -> pôr o icon mais para a direita e maior when active
+About -> sem problemas
 
 Portfolio -> when active icon is wat too up and text is way to down
 
