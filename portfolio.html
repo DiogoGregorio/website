@@ -111,10 +111,6 @@
         const display = document.querySelector('.project-display');
         const textArea = document.querySelector('.text-area-porfolio');
 
-        // Hide main title
-        document.querySelector('.project-selection-icon').classList.add('hidden');
-
-
         // Hide all icons except clicked one
         document.querySelectorAll('.project').forEach(i => {
             if (i !== icon) i.classList.add('hidden');
@@ -123,6 +119,12 @@
 
         // Activate clicked icon
         icon.classList.add('active');
+
+        // Hide icon row
+        document.querySelector('.project-selection-icon').classList.add('hidden');
+
+        // Hide title
+        selection.classList.add('hide-title');
 
         // Show content area
         display.classList.remove('hidden');

@@ -399,12 +399,16 @@ header {
 }
 
 /* Hide heading when active */
-.project-selection.hidden {
+/* .project-selection.hidden {
     display: none;
-}
+} */
 
 /* Hide heading when active */
-.project-selection.hidden h1 {
+/* .project-selection.hidden h1 {
+    display: none;
+} */
+
+.project-selection.hide-title h1 {
     display: none;
 }
 
