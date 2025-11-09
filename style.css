@@ -464,6 +464,10 @@ header {
     transform: translateY(20px);
 }
 
+.content-portfolio.hidden {
+    display: none;
+}
+
 /* ---------- TEXT + CONTENT ---------- */
 
 .text-area-porfolio {
