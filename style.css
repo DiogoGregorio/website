@@ -475,7 +475,8 @@ header {
 .text-area-porfolio {
     color: #fff;
     width: 70%;
-    position: center;
+    margin-left: 120px; /* keeps text aligned to right of icon */
+    margin-top: 60px; /* lifts the content itself */
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.6s ease, transform 0.6s ease;
