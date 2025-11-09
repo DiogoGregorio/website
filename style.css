@@ -429,11 +429,12 @@ header {
 /* When clicked / active */
 .project.active {
     position: absolute;
-    bottom: 240px; /* move icon slightly up */
-    left: 70px; /* move further to content */
-    width: 80px; /* slightly larger for balance */
-    transform: none;
-    z-index: 50; /* safely above all content */
+    top: 12vh;
+    left: 5vw;
+    width: 10vw;
+    min-width: 70px;
+    max-width: 110px;
+    z-index: 50;
 }
                    
 /* Icons fade away when inactive */
@@ -558,12 +559,12 @@ header {
 
 /* Move Microsoft certification logo a bit lower when active */
 #MicroSoftCerti.active {
-    bottom: 220px; /* slightly lower than default 240px */
+    top: 15vh; /* slightly lower than default 240px */
 }
 
 /* Move Avanade logo a bit higher when active */
 #AvanadeProjects.active {
-    bottom: 280px; /* slightly higher than default 240px */
+    top: 10vh;; /* slightly higher than default 240px */
 }
 
 /* SERVICE */
