@@ -399,7 +399,7 @@ header {
 }
 
 /* Hide heading when active */
-.project-selection.hide h1 {
+.project-selection.hidden {
     display: none;
 }
 
