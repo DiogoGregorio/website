@@ -460,11 +460,6 @@ header {
 }
 
 .project-display.hidden {
-    opacity: 0;
-    transform: translateY(20px);
-}
-
-.content-portfolio.hidden {
     display: none;
 }
 
