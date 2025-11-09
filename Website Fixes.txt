@@ -4,6 +4,6 @@ Home -> sem problemas
 
 About -> sem problemas
 
-Portfolio -> can't press the initial bottons/icons; when active text is way to down
+Portfolio -> tenho de dar display none no icon selection
 
 Service -> sem problemas
