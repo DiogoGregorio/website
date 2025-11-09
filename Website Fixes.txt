@@ -4,6 +4,6 @@ Home -> sem problemas
 
 About -> sem problemas
 
-Portfolio -> when active text is way to down
+Portfolio -> can't press the initial bottons/icons; when active text is way to down
 
 Service -> sem problemas
