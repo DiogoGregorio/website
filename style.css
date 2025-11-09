@@ -399,9 +399,9 @@ header {
 }
 
 /* Hide heading when active */
-/* .project-selection.hidden {
+.project-selection.hidden {
     display: none;
-} */
+}
 
 /* Hide heading when active */
 .project-selection.hidden h1 {
