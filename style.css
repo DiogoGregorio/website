@@ -403,6 +403,11 @@ header {
     display: none;
 }
 
+/* Hide heading when active */
+.project-selection.hidden h1 {
+    display: none;
+}
+
 .project-selection-icon {
     display: flex;
     justify-content: center;
