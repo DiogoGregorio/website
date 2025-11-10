@@ -422,7 +422,7 @@ header {
     flex-wrap: wrap;
 }
 
-.project-selection-icon.hidden {
+.project-selection-icon.hidden .project:not(.active) {
     display: none;
 }
 
@@ -444,7 +444,8 @@ header {
     left: 70px; /* move further to content */
     width: 80px; /* slightly larger for balance */
     transform: none;
-    z-index: 10;
+    opacity: 1 !important;
+    z-index: 20;
 }
                    
 /* Icons fade away when inactive */
@@ -459,7 +460,7 @@ header {
     display: flex;
     align-items: flex-start;
     gap: 40px;
-    padding: 40px 5% 40px; /* lowered padding so content appears higher */
+    padding: 10px 5% 40px; /* lowered top padding */
     transition: all 0.8s ease;
     opacity: 0;
     transform: translateY(30px);
