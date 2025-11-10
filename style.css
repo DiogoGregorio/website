@@ -460,7 +460,7 @@ header {
     display: flex;
     align-items: flex-start;
     gap: 40px;
-    padding: 10px 5% 40px; /* lowered top padding */
+    padding: 0px 5% 40px; /* lowered top padding */
     transition: all 0.8s ease;
     opacity: 0;
     transform: translateY(30px);
