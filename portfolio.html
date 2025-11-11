@@ -120,8 +120,12 @@
         // Activate clicked icon
         icon.classList.add('active');
 
+        // Insert active icon into project-active-icon
+        document.querySelector(".project-active-icon").innerHTML =
+        `<img src="${icon.src}" class="active-icon">`;
+
         // Hide icon row
-        document.querySelector('.project-selection-icon').classList.add('hidden');
+        // document.querySelector('.project-selection-icon').classList.add('hidden');
 
         // Hide title
         selection.classList.add('hide-title');

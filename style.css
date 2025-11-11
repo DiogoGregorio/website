@@ -475,6 +475,18 @@ header {
     display: none;
 }
 
+.project-active-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.project-active-icon img.active-icon {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+
 /* ---------- TEXT + CONTENT ---------- */
 
 .text-area-porfolio {

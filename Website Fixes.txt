@@ -4,6 +4,6 @@ Home -> sem problemas
 
 About -> sem problemas
 
-Portfolio -> tenho de dar display none no icon selection
+Portfolio -> project-selection hide-title tem de estar em display: none when active, enquanto o icon associado à id em active tem de aparecer, o que não está a acontecer visto que não aparece nada no project-active-icon
 
 Service -> sem problemas
