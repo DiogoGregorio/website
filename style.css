@@ -422,7 +422,7 @@ header {
     flex-wrap: wrap;
 }
 
-.project-selection-icon.hidden .project:not(.active) {
+.project-selection-icon.hidden {
     display: none;
 }
 
