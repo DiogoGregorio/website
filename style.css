@@ -438,15 +438,15 @@ header {
 }
 
 /* When clicked / active */
-.project.active {
+/* .project.active {
     position: absolute;
     bottom: 240px; /* move icon slightly up */
-    left: 70px; /* move further to content */
-    width: 80px; /* slightly larger for balance */
-    transform: none;
-    opacity: 1 !important;
-    z-index: 20;
-}
+    /* left: 70px; /* move further to content */
+    /* width: 80px; slightly larger for balance */
+    /* transform: none; */
+    /* opacity: 1 !important; */
+    /* z-index: 20; */
+/* } */
                    
 /* Icons fade away when inactive */
 .project.hidden {
@@ -478,12 +478,23 @@ header {
 .project-active-icon {
     width: 100px;
     height: 100px;
+    margin-top: 40px; /* moves icon down */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-active-icon img.active-icon {
     width: 100px;
     height: auto;
-    display: block;
+    transition: all 0.4s ease;
+    filter: drop-shadow(0 0 5px rgba(255,255,255,0.4));
+    cursor: pointer;
+}
+
+.project-active-icon img.active-icon:hover {
+    transform: scale(1.15); /* slight amplification */
+    filter: drop-shadow(0 0 15px rgba(255,255,255,0.9)); /* shiny glow */
 }
 
 
