@@ -607,6 +607,82 @@ header {
     margin: 10px;    /* nice spacing between them */
 }
 
+/* General responsive adjustments for About section */
+/* <1000px: slightly smaller main titles */
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+    .icon-selection .icon {
+        width: 120px;
+        height: 120px;
+        font-size: 80px;
+    }
+
+    .icon-selection {
+        position: relative;
+        top: -40px; /* lift slightly */
+        gap: 40px;
+    }
+}
+
+/* <800px: reduce titles more + compact header, nav, button, and icons */
+@media screen and (max-width: 800px) and (min-width: 601px) {
+    .icon-selection .icon {
+        width: 100px;
+        height: 100px;
+        font-size: 65px;
+    }
+
+    .icon-selection {
+        position: relative;
+        top: -60px; /* lift slightly */
+        gap: 35px;
+    }
+}
+
+/* <600px: shrink title text a bit more */
+@media screen and (max-width: 600px) and (min-width: 401px) {
+    .icon-selection .icon {
+        width: 80px;
+        height: 80px;
+        font-size: 50px;
+    }
+
+    .icon-selection {
+        position: relative;
+        top: -70px;
+        gap: 30px;
+    }
+}
+
+/* <400px: compact everything again */
+@media screen and (max-width: 400px) {
+    .icon-selection .icon {
+        width: 65px;
+        height: 65px;
+        font-size: 40px;
+    }
+
+    .icon-selection {
+        position: relative;
+        top: -60px;
+        gap: 25px;
+    }
+}
+
+/* Portrait (upright) phones */
+@media screen and (max-width: 600px) and (pointer: coarse) and (orientation: portrait) {
+    .icon-selection .icon {
+        width: 75px;
+        height: 75px;
+        font-size: 45px;
+    }
+
+    .icon-selection {
+        position: relative;
+        top: -80px; /* lift a bit more for portrait */
+        gap: 30px;
+    }
+}
+
 /* PORTFOLIO */
 
 .project-selection {
