@@ -618,7 +618,7 @@ header {
 
     .icon-selection {
         position: relative;
-        top: -40px; /* lift slightly */
+        top: -60px; /* lift slightly */
         gap: 40px;
     }
 }
@@ -633,7 +633,7 @@ header {
 
     .icon-selection {
         position: relative;
-        top: -80px; /* lift slightly */
+        top: -100px; /* lift slightly */
         gap: 30px;
     }
 }
@@ -648,7 +648,7 @@ header {
 
     .icon-selection {
         position: relative;
-        top: -100px;
+        top: -150px;
         gap: 30px;
     }
 }
@@ -663,7 +663,7 @@ header {
 
     .icon-selection {
         position: relative;
-        top: -120px;
+        top: -200px;
         gap: 20px;
     }
 }
