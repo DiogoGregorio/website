@@ -4,6 +4,20 @@ Home -> sem problemas
 
 About -> sem problemas
 
-Portfolio -> project-selection hide-title tem de estar em display: none when active, enquanto o icon associado à id em active tem de aparecer, o que não está a acontecer visto que não aparece nada no project-active-icon
+Portfolio -> sem problemas
 
 Service -> sem problemas
+
+
+Resoluções diferentes:
+
+Home:
+	<1000  -> Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer"
+
+	<800  -> Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer" mais um pouco; Diminuir tamanho do header, da navbar, do btn e da font do btn, e dos social icons para os manter todos na mesma linha
+
+	<600  -> Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer" mais um pouco
+
+	<400  -> Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer" mais um pouco; Diminuir tamanho do header, da navbar, do btn e da font do btn, e dos social icons para os manter todos na mesma linha
+
+	Phone ->  Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer" bastante; Diminuir tamanho do header, da navbar, do btn e da font do btn, e dos social icons para os manter todos na mesma linha

@@ -245,6 +245,137 @@ header {
     display: none;
 }
 
+/* General responsive adjustments for Home section */
+/* <1000px: slightly smaller main titles */
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+    .home-detail h1 {
+        font-size: 45px;
+    }
+
+    .home-detail h2 {
+        font-size: 26px;
+    }
+}
+
+/* <800px: reduce titles more + compact header, nav, button, and icons */
+@media screen and (max-width: 800px) and (min-width: 601px) {
+    /* header {
+        padding: 18px 5%;
+    } */
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .navbar a {
+        font-size: 15px;
+        margin-left: 25px;
+    }
+
+    .home-detail h1 {
+        font-size: 38px;
+    }
+
+    .home-detail h2 {
+        font-size: 22px;
+    }
+
+    .btn {
+        padding: 8px 22px;
+        font-size: 14px;
+    }
+
+    .home-detail .social-icons a {
+        font-size: 16px;
+        padding: 6px;
+        margin: 0 5px;
+    }
+
+    .home-detail .social-icons span {
+        font-size: 12px;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .home-img .img-box {
+        width: 40vw;
+        height: 40vw;
+    }
+}
+
+/* <600px: shrink title text a bit more */
+@media screen and (max-width: 600px) {
+    .home-detail h1 {
+        font-size: 32px;
+    }
+
+    .home-detail h2 {
+        font-size: 20px;
+    }
+}
+
+/* <400px: compact everything again */
+@media screen and (max-width: 400px) {
+    header {
+        padding: 12px 5%;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .navbar a {
+        font-size: 13px;
+        margin-left: 18px;
+    }
+
+    .home-detail h1 {
+        font-size: 26px;
+    }
+
+    .home-detail h2 {
+        font-size: 18px;
+    }
+
+    .btn {
+        padding: 6px 18px;
+        font-size: 12px;
+    }
+
+    .home-detail .social-icons a {
+        font-size: 14px;
+        padding: 5px;
+        margin: 0 4px;
+    }
+
+    .home-detail .social-icons span {
+        font-size: 11px;
+    }
+}
+/* Portrait (upright) phones */
+@media screen and (max-width: 600px) and (pointer: coarse) and (orientation: portrait) {
+    /* Real phone in portrait */
+    .home-detail h1 {
+        font-size: 22px;
+    }
+
+    .home-detail h2 {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 10px 5%;
+    }
+
+    .navbar a {
+        font-size: 12px;
+    }
+}
+
 /* ABOUT */
 
 .about {

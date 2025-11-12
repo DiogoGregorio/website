@@ -1,33 +1,11 @@
-/* General responsive adjustments */
-@media screen and (max-width: 1200px) {
-    .home {
-        flex-direction: column;
-        padding: 100px 5% 0;
-        text-align: center;
+/* General responsive adjustments for Home section */
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+    .home-detail h1 {
+        font-size: 45px;
     }
 
-    .home-detail {
-        margin-bottom: 50px;
-    }
-
-    .home-img .img-box {
-        width: 300px;
-        height: 300px;
-        margin: 0 auto;
-    }
-
-    .download-social {
-        justify-content: center;
-    }
-
-    .navbar a {
-    font-size: 18px;
-    color: #fff;
-    text-decoration: rgb(14, 14, 27);
-    font-weight: 500;
-    margin-left: 35px;
-    border-bottom: 2px solid transparent;
-    transition: .5s;
+    .home-detail h2 {
+        font-size: 26px;
     }
 }
 
