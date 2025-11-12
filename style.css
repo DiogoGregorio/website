@@ -318,7 +318,7 @@ header {
 /* <600px: shrink title text a bit more */
 @media screen and (max-width: 600px) and (min-width: 401px) {
     .home-detail h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .home-detail h2 {
@@ -326,36 +326,36 @@ header {
     }
 
     .home-detail p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .navbar a {
-        font-size: 10px;
-        margin-left: 30px;
+        font-size: 7px;
+        margin-left: 25px;
     }
 
     .logo {
-        font-size: 19px;
+        font-size: 14px;
     }
 
     .btn {
-        padding: 6px 20px;
-        font-size: 12px;
+        padding: 5px 17px;
+        font-size: 8px;
     }
 
     .home-detail .social-icons a {
-        font-size: 14px;
-        padding: 6px;
-        margin: 0 5px;
+        font-size: 10px;
+        padding: 4px;
+        margin: 0 3px;
     }
 
     .home-detail .social-icons span {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .home-img .img-box {
-        width: 18vw;
-        height: 18vw;
+        width: 15vw;
+        height: 15vw;
     }
 
 }
@@ -367,39 +367,39 @@ header {
     } */
 
     .logo {
-        font-size: 18px;
-    }
-
-    .navbar a {
-        font-size: 13px;
-        margin-left: 18px;
-    }
-
-    .home-detail h1 {
-        font-size: 26px;
-    }
-
-    .home-detail h2 {
-        font-size: 18px;
-    }
-
-    .home-detail p {
         font-size: 10px;
     }
 
+    .navbar a {
+        font-size: 5px;
+        margin-left: 25px;
+    }
+
+    .home-detail h1 {
+        font-size: 20px;
+    }
+
+    .home-detail h2 {
+        font-size: 10px;
+    }
+
+    .home-detail p {
+        font-size: 7px;
+    }
+
     .btn {
-        padding: 6px 18px;
-        font-size: 12px;
+        padding: 4px 13px;
+        font-size: 6px;
     }
 
     .home-detail .social-icons a {
-        font-size: 12px;
-        padding: 5px;
-        margin: 0 4px;
+        font-size: 8px;
+        padding: 3px;
+        margin: 0 2px;
     }
 
     .home-detail .social-icons span {
-        font-size: 8px;
+        font-size: 6px;
     }
 }
 /* Portrait (upright) phones */
@@ -432,18 +432,18 @@ header {
     }
 
     .btn {
-        padding: 5px 15px;
-        font-size: 10px;
+        padding: 3px 10px;
+        font-size: 7px;
     }
 
     .home-detail .social-icons a {
-        font-size: 10px;
-        padding: 4px;
-        margin: 0 3px;
+        font-size: 7px;
+        padding: 3px;
+        margin: 0 2px;
     }
 
     .home-detail .social-icons span {
-        font-size: 8px;
+        font-size: 5px;
     }
 }
 

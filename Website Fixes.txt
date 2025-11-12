@@ -21,3 +21,6 @@ Home:
 	<400  -> Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer" mais um pouco; Diminuir tamanho do header, da navbar, do btn e da font do btn, e dos social icons para os manter todos na mesma linha
 
 	Phone ->  Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer" bastante; Diminuir tamanho do header, da navbar, do btn e da font do btn, e dos social icons para os manter todos na mesma linha
+
+
+About:
