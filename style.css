@@ -358,6 +358,12 @@ header {
         height: 15vw;
     }
 
+    /* move home-detail up slightly */
+    .home-detail {
+        position: relative;
+        top: -30px; /* adjust value to taste */
+    }
+
 }
 
 /* <400px: compact everything again */
@@ -400,6 +406,12 @@ header {
 
     .home-detail .social-icons span {
         font-size: 6px;
+    }
+
+    /* move home-detail even higher on very small screens */
+    .home-detail {
+        position: relative;
+        top: -50px; /* slightly stronger shift */
     }
 }
 /* Portrait (upright) phones */
