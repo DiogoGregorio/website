@@ -656,15 +656,15 @@ header {
 /* <400px: compact everything again */
 @media screen and (max-width: 400px) {
     .icon-selection .icon {
-        width: 45px;
-        height: 45px;
-        font-size: 30px;
+        width: 35px;
+        height: 35px;
+        font-size: 25px;
     }
 
     .icon-selection {
         position: relative;
         top: -120px;
-        gap: 25px;
+        gap: 20px;
     }
 }
 
