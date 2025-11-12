@@ -313,6 +313,12 @@ header {
         width: 20vw;
         height: 20vw;
     }
+
+    /* lift image slightly */
+    .home-img {
+        position: relative;
+        top: -25px;
+    }
 }
 
 /* <600px: shrink title text a bit more */
@@ -356,6 +362,12 @@ header {
     .home-img .img-box {
         width: 15vw;
         height: 15vw;
+    }
+
+    /* lift image slightly */
+    .home-img {
+        position: relative;
+        top: -40px;
     }
 
     /* move home-detail up slightly */
@@ -413,6 +425,11 @@ header {
         position: relative;
         top: -50px; /* slightly stronger shift */
     }
+
+    .home-img {
+        position: relative;
+        top: -60px;
+    }
 }
 /* Portrait (upright) phones */
 @media screen and (max-width: 600px) and (pointer: coarse) and (orientation: portrait) {
@@ -456,6 +473,11 @@ header {
 
     .home-detail .social-icons span {
         font-size: 5px;
+    }
+
+    .home-img {
+        position: relative;
+        top: -50px;
     }
 }
 
