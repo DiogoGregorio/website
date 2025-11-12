@@ -12,15 +12,15 @@ Service -> sem problemas
 Resoluções diferentes:
 
 Home:
-	<1000  -> Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer"
+801<  X	<1000  -> sem problemas
 
-	<800  -> Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer" mais um pouco; Diminuir tamanho do header, da navbar, do btn e da font do btn, e dos social icons para os manter todos na mesma linha
+601<  X	<800  -> sem problemas
 
-	<600  -> Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer" mais um pouco
+401<  X	<600  -> subir home-detail
 
-	<400  -> Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer" mais um pouco; Diminuir tamanho do header, da navbar, do btn e da font do btn, e dos social icons para os manter todos na mesma linha
+      X	<400  -> Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer" mais um pouco; subir home-detail
 
-	Phone ->  Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer" bastante; Diminuir tamanho do header, da navbar, do btn e da font do btn, e dos social icons para os manter todos na mesma linha
+	Phone -> sem problemas
 
 
 About:
