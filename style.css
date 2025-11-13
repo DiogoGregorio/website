@@ -618,7 +618,7 @@ header {
 
     .icon-selection {
         position: relative;
-        top: -60px; /* lift slightly */
+        top: -80px; /* lift slightly */
         gap: 40px;
     }
 }
