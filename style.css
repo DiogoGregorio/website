@@ -608,6 +608,16 @@ header {
 }
 
 /* General responsive adjustments for About section */
+/* 1201< X <1500  */
+@media screen and (max-width: 1500px) and (min-width: 1201px) {
+    
+}
+
+/* 1001< X <1200:  */
+@media screen and (max-width: 1200px) and (min-width: 1001px) {
+    
+}
+
 /* <1000px: slightly smaller main titles */
 @media screen and (max-width: 1000px) and (min-width: 801px) {
     .icon-selection .icon {
