@@ -663,7 +663,7 @@ header {
 
     .icon-selection {
         position: relative;
-        top: -200px;
+        top: -150px;
         gap: 20px;
     }
 }
