@@ -641,14 +641,14 @@ header {
 /* 1001< X <1200:  */
 @media screen and (max-width: 1200px) and (min-width: 1001px) {
     .about.active .icon {
-        width: 55px;
-        height: 55px;
-        font-size: 40px;
+        width: 60px;
+        height: 60px;
+        font-size: 37px;
     }
 
     .text-area.show {
-        transform: scale(0.8);
-        top: -40px;
+        transform: scale(0.95);
+        top: -800px;
     }
 
     .text-area .card img {
