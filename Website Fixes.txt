@@ -24,3 +24,17 @@ Home:
 
 
 About:
+1201< X <1500  -> Diminuir o tamanho do icon selecionado/active; Diminuir o tamanho de tudo dentro da text-area selecionado/active (contente, about-grid, card, images)
+
+1001< X <1200  -> Diminuir o tamanho do icon selecionado/active; Diminuir o tamanho de tudo dentro da text-area selecionado/active (contente, about-grid, card, images)
+
+801<  X	<1000  -> Diminuir o tamanho do icon selecionado/active; Diminuir o tamanho de tudo dentro da text-area selecionado/active (contente, about-grid, card, images) 
+
+601<  X	<800  -> Diminuir o tamanho do icon selecionado/active; Diminuir o tamanho de tudo dentro da text-area  (contente, about-grid, card, images)
+
+401<  X	<600  -> Diminuir o tamanho do icon selecionado/active; Diminuir o tamanho de tudo dentro da text-area selecionado/active (contente, about-grid, card, images)
+
+      X	<400  -> Diminuir o tamanho do icon selecionado/active; Diminuir o tamanho de tudo dentro da text-area selecionado/active (contente, about-grid, card, images) 
+
+	Phone -> Diminuir o tamanho do icon selecionado/active; Diminuir o tamanho de tudo dentro da text-area selecionado/active (contente, about-grid, card, images) 
+

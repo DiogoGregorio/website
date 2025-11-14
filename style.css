@@ -611,15 +611,86 @@ header {
 /* 1201< X <1500  */
 @media screen and (max-width: 1500px) and (min-width: 1201px) {
     
+    .about.active .icon {
+        width: 70px;
+        height: 70px;
+        font-size: 45px;
+    }
+
+    .text-area.show {
+        transform: scale(0.95);
+    }
+
+    .text-area .card img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .text-area h2 {
+        font-size: 30px;
+    }
+
+    .text-area p,
+    .card p {
+        font-size: 16px;
+    }
+
 }
 
 /* 1001< X <1200:  */
 @media screen and (max-width: 1200px) and (min-width: 1001px) {
-    
+    .about.active .icon {
+        width: 65px;
+        height: 65px;
+        font-size: 42px;
+    }
+
+    .text-area.show {
+        transform: scale(0.9);
+    }
+
+    .text-area .card img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .text-area h2 {
+        font-size: 28px;
+    }
+
+    .text-area p,
+    .card p {
+        font-size: 15px;
+    }
 }
 
 /* <1000px: slightly smaller main titles */
 @media screen and (max-width: 1000px) and (min-width: 801px) {
+
+    .about.active .icon {
+        width: 60px;
+        height: 60px;
+        font-size: 38px;
+    }
+
+    .text-area.show {
+        transform: scale(0.85);
+    }
+
+    .text-area .card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .text-area h2 {
+        font-size: 26px;
+    }
+
+    .text-area p,
+    .card p {
+        font-size: 14px;
+    }
+
     .icon-selection .icon {
         width: 120px;
         height: 120px;
@@ -635,6 +706,31 @@ header {
 
 /* <800px: reduce titles more + compact header, nav, button, and icons */
 @media screen and (max-width: 800px) and (min-width: 601px) {
+
+    .about.active .icon {
+        width: 55px;
+        height: 55px;
+        font-size: 35px;
+    }
+
+    .text-area.show {
+        transform: scale(0.8);
+    }
+
+    .text-area .card img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .text-area h2 {
+        font-size: 24px;
+    }
+
+    .text-area p,
+    .card p {
+        font-size: 13px;
+    }
+
     .icon-selection .icon {
         width: 80px;
         height: 80px;
@@ -650,6 +746,31 @@ header {
 
 /* <600px: shrink title text a bit more */
 @media screen and (max-width: 600px) and (min-width: 401px) {
+
+    .about.active .icon {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .text-area.show {
+        transform: scale(0.75);
+    }
+
+    .text-area .card img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .text-area h2 {
+        font-size: 22px;
+    }
+
+    .text-area p,
+    .card p {
+        font-size: 12px;
+    }
+
     .icon-selection .icon {
         width: 60px;
         height: 60px;
@@ -665,6 +786,31 @@ header {
 
 /* <400px: compact everything again */
 @media screen and (max-width: 400px) {
+
+    .about.active .icon {
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+    }
+
+    .text-area.show {
+        transform: scale(0.7);
+    }
+
+    .text-area .card img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .text-area h2 {
+        font-size: 20px;
+    }
+
+    .text-area p,
+    .card p {
+        font-size: 11px;
+    }
+
     .icon-selection .icon {
         width: 35px;
         height: 35px;
@@ -680,6 +826,31 @@ header {
 
 /* Portrait (upright) phones */
 @media screen and (max-width: 600px) and (pointer: coarse) and (orientation: portrait) {
+
+    .about.active .icon {
+        width: 45px;
+        height: 45px;
+        font-size: 28px;
+    }
+
+    .text-area.show {
+        transform: scale(0.7);
+    }
+
+    .text-area h2 {
+        font-size: 18px;
+    }
+
+    .text-area p,
+    .card p {
+        font-size: 11px;
+    }
+
+    .text-area .card img {
+        width: 40px;
+        height: 40px;
+    }
+
     .icon-selection .icon {
         width: 75px;
         height: 75px;
