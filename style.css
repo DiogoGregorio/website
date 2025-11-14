@@ -719,7 +719,7 @@ header {
     }
 
     .text-area.show {
-        transform: scale(0.7);
+        transform: scale(0.75);
         top: -150px;
     }
 
@@ -803,7 +803,7 @@ header {
     }
 
     .text-area.show {
-        transform: scale(0.55);
+        transform: scale(0.6);
         top: -300px;
     }
 
@@ -845,10 +845,12 @@ header {
         width: 45px;
         height: 45px;
         font-size: 28px;
+        top: -200px;
     }
 
     .text-area.show {
-        transform: scale(0.6);
+        transform: scale(0.8);
+        top: -200px;
     }
 
     .text-area h2 {
