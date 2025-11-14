@@ -641,19 +641,19 @@ header {
 /* 1001< X <1200:  */
 @media screen and (max-width: 1200px) and (min-width: 1001px) {
     .about.active .icon {
-        width: 60px;
-        height: 60px;
-        font-size: 37px;
+        width: 65px;
+        height: 65px;
+        font-size: 42px;
     }
 
     .text-area.show {
         transform: scale(0.95);
-        top: -800px;
+        top: -80px;
     }
 
     .text-area .card img {
-        width: 65px;
-        height: 65px;
+        width: 60px;
+        height: 60px;
     }
 
     .text-area h2 {
@@ -672,16 +672,18 @@ header {
     .about.active .icon {
         width: 60px;
         height: 60px;
-        font-size: 38px;
+        font-size: 40px;
+        top: -100px;
     }
 
     .text-area.show {
-        transform: scale(0.75);
+        transform: scale(0.85);
+        top: -150px;
     }
 
     .text-area .card img {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 
     .text-area h2 {
@@ -713,10 +715,12 @@ header {
         width: 55px;
         height: 55px;
         font-size: 35px;
+        top: -150px;
     }
 
     .text-area.show {
         transform: scale(0.7);
+        top: -150px;
     }
 
     .text-area .card img {
@@ -753,10 +757,12 @@ header {
         width: 50px;
         height: 50px;
         font-size: 30px;
+        top: -150px;
     }
 
     .text-area.show {
         transform: scale(0.65);
+        top: -200px;
     }
 
     .text-area .card img {
@@ -793,10 +799,12 @@ header {
         width: 40px;
         height: 40px;
         font-size: 25px;
+        top: -200px;
     }
 
     .text-area.show {
-        transform: scale(0.6);
+        transform: scale(0.55);
+        top: -300px;
     }
 
     .text-area .card img {
@@ -811,6 +819,10 @@ header {
     .text-area p,
     .card p {
         font-size: 11px;
+    }
+    
+    .card h3 {
+        font-size: 15px;
     }
 
     .icon-selection .icon {
