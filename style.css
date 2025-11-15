@@ -612,9 +612,9 @@ header {
 @media screen and (max-width: 1500px) and (min-width: 1201px) {
     
     .about.active .icon {
-        width: 70px;
-        height: 70px;
-        font-size: 45px;
+        width: 65px;
+        height: 65px;
+        font-size: 40px;
     }
 
     .text-area.show {
@@ -641,14 +641,14 @@ header {
 /* 1001< X <1200:  */
 @media screen and (max-width: 1200px) and (min-width: 1001px) {
     .about.active .icon {
-        width: 65px;
-        height: 65px;
-        font-size: 42px;
+        width: 55px;
+        height: 55px;
+        font-size: 35px;
     }
 
     .text-area.show {
         transform: scale(0.95);
-        top: -80px;
+        top: -200px;
     }
 
     .text-area .card img {
@@ -670,15 +670,15 @@ header {
 @media screen and (max-width: 1000px) and (min-width: 801px) {
 
     .about.active .icon {
-        width: 60px;
-        height: 60px;
-        font-size: 40px;
-        top: -100px;
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        top: -200px;
     }
 
     .text-area.show {
         transform: scale(0.85);
-        top: -150px;
+        top: -250px;
     }
 
     .text-area .card img {
@@ -712,15 +712,15 @@ header {
 @media screen and (max-width: 800px) and (min-width: 601px) {
 
     .about.active .icon {
-        width: 55px;
-        height: 55px;
-        font-size: 35px;
-        top: -150px;
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        top: -250px;
     }
 
     .text-area.show {
         transform: scale(0.75);
-        top: -150px;
+        top: -300px;
     }
 
     .text-area .card img {
@@ -754,15 +754,15 @@ header {
 @media screen and (max-width: 600px) and (min-width: 401px) {
 
     .about.active .icon {
-        width: 50px;
-        height: 50px;
-        font-size: 30px;
-        top: -150px;
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+        top: -250px;
     }
 
     .text-area.show {
-        transform: scale(0.65);
-        top: -200px;
+        transform: scale(0.7);
+        top: -300px;
     }
 
     .text-area .card img {
@@ -796,14 +796,14 @@ header {
 @media screen and (max-width: 400px) {
 
     .about.active .icon {
-        width: 40px;
-        height: 40px;
-        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
         top: -200px;
     }
 
     .text-area.show {
-        transform: scale(0.6);
+        transform: scale(0.7);
         top: -300px;
     }
 
@@ -842,15 +842,16 @@ header {
 @media screen and (max-width: 600px) and (pointer: coarse) and (orientation: portrait) {
 
     .about.active .icon {
-        width: 45px;
-        height: 45px;
-        font-size: 28px;
-        top: -200px;
+        width: 35px;
+        height: 35px;
+        font-size: 22px;
+        top: -300px;
+        left: -30px;
     }
 
     .text-area.show {
-        transform: scale(0.8);
-        top: -200px;
+        transform: scale(0.9);
+        top: -300px;
     }
 
     .text-area h2 {
