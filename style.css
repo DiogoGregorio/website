@@ -615,6 +615,7 @@ header {
         width: 65px;
         height: 65px;
         font-size: 40px;
+        left: -20px;
     }
 
     .text-area.show {
@@ -648,7 +649,7 @@ header {
 
     .text-area.show {
         transform: scale(0.95);
-        top: -200px;
+        top: -250px;
     }
 
     .text-area .card img {
@@ -673,12 +674,12 @@ header {
         width: 50px;
         height: 50px;
         font-size: 30px;
-        top: -200px;
+        top: -250px;
     }
 
     .text-area.show {
         transform: scale(0.85);
-        top: -250px;
+        top: -300px;
     }
 
     .text-area .card img {
@@ -846,7 +847,7 @@ header {
         height: 35px;
         font-size: 22px;
         top: -300px;
-        left: -30px;
+        left: -15px;
     }
 
     .text-area.show {
