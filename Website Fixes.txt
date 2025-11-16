@@ -30,10 +30,11 @@ About:
 
 801<  X	<1000  -> 
 
-601<  X	<800  -> 
+601<  X	<800  ->  
 
 401<  X	<600  -> 
 
-      X	<400  -> ícone mais pequeno; subir o ícone e o text-area show; pôr o about-grid mais largo
+      X	<400  -> 
 
- 	Phone -> ícone mais pequeno e mais à esquerda; subir o ícone e o text-area show; pôr o about-grid mais largo
+ 	Phone -> 
+

@@ -615,7 +615,7 @@ header {
         width: 65px;
         height: 65px;
         font-size: 40px;
-        left: -20px;
+        left: -10px;
     }
 
     .text-area.show {
@@ -649,7 +649,7 @@ header {
 
     .text-area.show {
         transform: scale(0.95);
-        top: -250px;
+        top: -300px;
     }
 
     .text-area .card img {
@@ -675,11 +675,12 @@ header {
         height: 50px;
         font-size: 30px;
         top: -250px;
+        left: -10px;
     }
 
     .text-area.show {
         transform: scale(0.85);
-        top: -300px;
+        top: -350px;
     }
 
     .text-area .card img {
@@ -716,12 +717,12 @@ header {
         width: 50px;
         height: 50px;
         font-size: 30px;
-        top: -250px;
+        top: -350px;
     }
 
     .text-area.show {
         transform: scale(0.75);
-        top: -300px;
+        top: -400px;
     }
 
     .text-area .card img {
@@ -758,12 +759,12 @@ header {
         width: 40px;
         height: 40px;
         font-size: 25px;
-        top: -250px;
+        top: -400px;
     }
 
     .text-area.show {
         transform: scale(0.7);
-        top: -300px;
+        top: -500px;
     }
 
     .text-area .card img {
@@ -773,6 +774,10 @@ header {
 
     .text-area h2 {
         font-size: 22px;
+    }
+
+    .card {
+        transform: scale(0.7);
     }
 
     .text-area p,
@@ -800,12 +805,13 @@ header {
         width: 30px;
         height: 30px;
         font-size: 20px;
-        top: -200px;
+        top: -350px;
+        left: 10px;
     }
 
     .text-area.show {
         transform: scale(0.7);
-        top: -300px;
+        top: -400px;
     }
 
     .text-area .card img {
@@ -815,6 +821,10 @@ header {
 
     .text-area h2 {
         font-size: 20px;
+    }
+
+    .card {
+        transform: scale(0.7);
     }
 
     .text-area p,
