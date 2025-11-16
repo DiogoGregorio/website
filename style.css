@@ -615,7 +615,7 @@ header {
         width: 65px;
         height: 65px;
         font-size: 40px;
-        left: -5px;
+        left: 5px;
     }
 
     .text-area.show {
@@ -649,7 +649,7 @@ header {
 
     .text-area.show {
         transform: scale(0.95);
-        top: -350px;
+        top: -400px;
     }
 
     .text-area .card img {
@@ -675,12 +675,12 @@ header {
         height: 50px;
         font-size: 30px;
         top: -250px;
-        left: -5px;
+        left: 5px;
     }
 
     .text-area.show {
         transform: scale(0.85);
-        top: -400px;
+        top: -500px;
     }
 
     .text-area .card img {
@@ -718,11 +718,12 @@ header {
         height: 50px;
         font-size: 30px;
         top: -450px;
+        left: -2px;
     }
 
     .text-area.show {
         transform: scale(0.75);
-        top: -500px;
+        top: -700px;
     }
 
     .text-area .card img {
@@ -759,12 +760,13 @@ header {
         width: 40px;
         height: 40px;
         font-size: 25px;
-        top: -500px;
+        top: -450px;
+        left: -2px;
     }
 
     .text-area.show {
         transform: scale(0.7);
-        top: -700px;
+        top: -1000px;
     }
 
     .text-area .card img {
@@ -802,16 +804,16 @@ header {
 @media screen and (max-width: 400px) {
 
     .about.active .icon {
-        width: 30px;
-        height: 30px;
-        font-size: 20px;
-        top: -450px;
-        left: 5px;
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+        top: -420px;
+        left: 10px;
     }
 
     .text-area.show {
         transform: scale(0.7);
-        top: -600px;
+        top: -1000px;
     }
 
     .text-area .card img {
@@ -857,20 +859,20 @@ header {
         height: 35px;
         font-size: 22px;
         top: -500px;
-        left: -10px;
+        left: -5px;
     }
 
     .text-area.show {
-        top: -500px;
+        top: -1000px;
     }
 
     .text-area h2 {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .text-area p,
     .card p {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .text-area .card img {
