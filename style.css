@@ -615,7 +615,7 @@ header {
         width: 65px;
         height: 65px;
         font-size: 40px;
-        left: 5px;
+        /* left: 5px; */
     }
 
     .text-area.show {
