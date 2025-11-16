@@ -675,7 +675,6 @@ header {
         height: 50px;
         font-size: 30px;
         top: -250px;
-        left: 5px;
     }
 
     .text-area.show {
@@ -760,7 +759,7 @@ header {
         height: 40px;
         font-size: 25px;
         top: -450px;
-        left: -2px;
+        
     }
 
     .text-area.show {
