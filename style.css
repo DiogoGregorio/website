@@ -755,9 +755,9 @@ header {
 @media screen and (max-width: 600px) and (min-width: 401px) {
 
     .about.active .icon {
-        width: 40px;
-        height: 40px;
-        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
         top: -420px;
         left: 5px;
         
@@ -805,7 +805,7 @@ header {
     .about.active .icon {
         width: 20px;
         height: 20px;
-        font-size: 12px;
+        font-size: 10px;
         top: -420px;
         left: 10px;
     }
