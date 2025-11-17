@@ -615,7 +615,7 @@ header {
         width: 65px;
         height: 65px;
         font-size: 40px;
-        left: -2px;
+        /* left: -2px; */
     }
 
     .text-area.show {
@@ -649,7 +649,7 @@ header {
 
     .text-area.show {
         transform: scale(0.95);
-        top: -420px;
+        top: -450px;
     }
 
     .text-area .card img {
@@ -675,11 +675,12 @@ header {
         height: 50px;
         font-size: 30px;
         top: -250px;
+        left: -1px;
     }
 
     .text-area.show {
         transform: scale(0.9);
-        bottom: 100px;
+        bottom: 200px;
     }
 
     .text-area .card img {
@@ -717,11 +718,12 @@ header {
         height: 50px;
         font-size: 30px;
         top: -450px;
+        left: -1px;
     }
 
     .text-area.show {
         transform: scale(0.8);
-        bottom: 200px;
+        bottom: 300px;
     }
 
     .text-area .card img {
@@ -759,13 +761,13 @@ header {
         height: 30px;
         font-size: 20px;
         top: -420px;
-        left: 10px;
+        left: 2px;
         
     }
 
     .text-area.show {
         transform: scale(0.8);
-        bottom: 300px;
+        bottom: 500px;
     }
 
     .text-area .card img {
@@ -811,13 +813,13 @@ header {
     }
 
     .text-area.show {
-        transform: scale(0.7);
-        top: -1000px;
+        transform: scale(0.8);
+        bottom: 1000px;
     }
 
     .text-area .card img {
-        width: 45px;
-        height: 45px;
+        width: 50px;
+        height: 50px;
     }
 
     .text-area h2 {
@@ -825,15 +827,12 @@ header {
     }
 
     .card {
-        transform: scale(0.7);
+        transform: scale(0.9);
     }
-
-    /* Hover menos agressivo */
-    .card:hover { transform: translateY(-2px); }
 
     .text-area p,
     .card p {
-        font-size: 11px;
+        font-size: 12px;
     }
     
     .card h3 {
@@ -873,6 +872,7 @@ header {
 
     .card {
         transform: scale(0.85);
+        right: 2px
     }
 
     .card:hover {
