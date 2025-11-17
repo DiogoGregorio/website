@@ -859,11 +859,11 @@ header {
         width: 35px;
         height: 35px;
         font-size: 22px;
-        top: -500px;
+        top: -600px;
     }
 
     .text-area.show {
-        top: -1000px;
+        bottom: 600px;
     }
 
     .text-area h2 {
