@@ -1228,15 +1228,22 @@ header {
 @media screen and (max-width: 600px) and (pointer: coarse) and (orientation: portrait) {
 
     .project-selection h1 {
-        font-size: 20px;
-        margin-bottom: 30px;
-        transform: scale(0.7);
+        font-size: 17px;
+        margin-top: -20px;   /* << raises the text */
+        transform: scale(0.8);
     }
 
     .project-selection-icon {
-        gap: 30px;
-        transform: scale(0.7);
+        gap: 20px;
+        flex-direction: column;   /* << now stacked vertically */
+        align-items: center;      /* center the column */
         margin-top: 15px;
+    }
+
+    /* Shrink the icon images themselves */
+    .project-selection-icon .project {
+        width: 90px;    /* adjust as needed */
+        transform: scale(0.9);
     }
 
 }
