@@ -1261,7 +1261,7 @@ header {
     /* Shrink the icon images themselves */
     .project-selection-icon .project {
         width: 200px;    /* adjust as needed */
-        transform: scale(0.9);
+        /* transform: scale(0.9); */
     }
 
 }
