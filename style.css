@@ -1178,14 +1178,20 @@ header {
 
     .project-selection h1 {
         font-size: 20px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
         transform: scale(0.75);
     }
 
     .project-selection-icon {
-        gap: 50px;
+        gap: 30px;
         transform: scale(0.7);
-        margin-top: 15px;
+        margin-top: 0px;
+    }
+
+    /* Shrink the icon images themselves */
+    .project-selection-icon .project {
+        width: 150px;    /* adjust as needed */
+        transform: scale(0.9);
     }
 
 }
@@ -1205,21 +1211,33 @@ header {
         margin-top: 15px;
     }
 
+    /* Shrink the icon images themselves */
+    .project-selection-icon .project {
+        width: 120px;    /* adjust as needed */
+        transform: scale(0.9);
+    }
+
 }
 
 /* X <400:  */
 @media screen and (max-width: 400px){
 
     .project-selection h1 {
-        font-size: 15px;
-        margin-bottom: 20px;
+        font-size: 12px;
+        margin-bottom: 50px;
         transform: scale(0.7);
     }
 
     .project-selection-icon {
         gap: 50px;
         transform: scale(0.5);
-        margin-top: 15px;
+        margin-top: 0px;
+    }
+
+    /* Shrink the icon images themselves */
+    .project-selection-icon .project {
+        width: 100px;    /* adjust as needed */
+        transform: scale(0.9);
     }
 
 }
@@ -1237,12 +1255,12 @@ header {
         gap: 20px;
         flex-direction: column;   /* << now stacked vertically */
         align-items: center;      /* center the column */
-        margin-top: 15px;
+        margin-top: 0px;
     }
 
     /* Shrink the icon images themselves */
     .project-selection-icon .project {
-        width: 90px;    /* adjust as needed */
+        width: 200px;    /* adjust as needed */
         transform: scale(0.9);
     }
 
