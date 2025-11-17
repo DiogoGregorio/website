@@ -612,8 +612,8 @@ header {
 @media screen and (max-width: 1500px) and (min-width: 1201px) {
     
     .about.active .icon {
-        width: 65px;
-        height: 65px;
+        width: 60px;
+        height: 60px;
         font-size: 40px;
         /* left: -2px; */
     }
@@ -649,7 +649,7 @@ header {
 
     .text-area.show {
         transform: scale(0.95);
-        top: -500px;
+        margin-top: -300px;
     }
 
     .text-area .card img {
@@ -675,12 +675,12 @@ header {
         height: 50px;
         font-size: 30px;
         top: -250px;
-        left: 5px;
+        left: 15px;
     }
 
     .text-area.show {
         transform: scale(0.9);
-        bottom: 300px;
+        margin-top: -300px;
     }
 
     .text-area .card img {
@@ -718,12 +718,12 @@ header {
         height: 45px;
         font-size: 27px;
         top: -450px;
-        left: 5px;
+        left: 15px;
     }
 
     .text-area.show {
         transform: scale(0.8);
-        bottom: 500px;
+        margin-top: -450px;
     }
 
     .text-area .card img {
@@ -760,14 +760,14 @@ header {
         width: 27px;
         height: 27px;
         font-size: 15px;
-        top: -420px;
-        left: 5px;
+        top: -400px;
+        left: 15px;
         
     }
 
     .text-area.show {
         transform: scale(0.8);
-        margin-top: -220px;
+        margin-top: -200px;
     }
 
     .text-area .card img {
@@ -805,9 +805,9 @@ header {
 @media screen and (max-width: 400px) {
 
     .about.active .icon {
-        width: 20px;
-        height: 20px;
-        font-size: 10px;
+        width: 30px;
+        height: 30px;
+        font-size: 13px;
         margin-top: -450px;
         left: 15px;
     }
@@ -827,7 +827,7 @@ header {
     }
 
     .card {
-        transform: scale(0.9);
+        transform: scale(0.75);
     }
 
     .text-area p,
@@ -859,7 +859,7 @@ header {
         width: 30px;
         height: 30px;
         font-size: 17px;
-        top: -550px;
+        top: -30px;
         left: 2px;
     }
 
@@ -869,7 +869,7 @@ header {
     }
 
     .text-area.show {
-        margin-top: -600px;
+        margin-top: -200px;
     }
 
     .text-area h2 {
