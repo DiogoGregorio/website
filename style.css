@@ -1162,6 +1162,7 @@ header {
     .project-selection-icon {
         gap: 70px;
         transform: scale(0.8);
+        margin-top: 15px;
     }
 
 }
@@ -1171,13 +1172,14 @@ header {
 
     .project-selection h1 {
         font-size: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         transform: scale(0.75);
     }
 
     .project-selection-icon {
-        gap: 60px;
-        transform: scale(0.75);
+        gap: 50px;
+        transform: scale(0.7);
+        margin-top: 15px;
     }
 
 }
@@ -1187,13 +1189,14 @@ header {
 
     .project-selection h1 {
         font-size: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         transform: scale(0.65);
     }
 
     .project-selection-icon {
-        gap: 50px;
-        transform: scale(0.65);
+        gap: 40px;
+        transform: scale(0.5);
+        margin-top: 15px;
     }
 
 }
@@ -1202,14 +1205,15 @@ header {
 @media screen and (max-width: 400px){
 
     .project-selection h1 {
-        font-size: 10px;
-        margin-bottom: 10px;
-        transform: scale(0.5);
+        font-size: 15px;
+        margin-bottom: 20px;
+        transform: scale(0.7);
     }
 
     .project-selection-icon {
         gap: 50px;
         transform: scale(0.5);
+        margin-top: 15px;
     }
 
 }
@@ -1218,14 +1222,15 @@ header {
 @media screen and (max-width: 600px) and (pointer: coarse) and (orientation: portrait) {
 
     .project-selection h1 {
-        font-size: 10px;
-        margin-bottom: 10px;
-        transform: scale(0.5);
+        font-size: 20px;
+        margin-bottom: 30px;
+        transform: scale(0.7);
     }
 
     .project-selection-icon {
         gap: 30px;
-        transform: scale(0.4);
+        transform: scale(0.7);
+        margin-top: 15px;
     }
 
 }
