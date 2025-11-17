@@ -649,7 +649,7 @@ header {
 
     .text-area.show {
         transform: scale(0.95);
-        top: -450px;
+        top: -500px;
     }
 
     .text-area .card img {
@@ -675,12 +675,12 @@ header {
         height: 50px;
         font-size: 30px;
         top: -250px;
-        left: -1px;
+        left: 5px;
     }
 
     .text-area.show {
         transform: scale(0.9);
-        bottom: 200px;
+        bottom: 300px;
     }
 
     .text-area .card img {
@@ -714,16 +714,16 @@ header {
 @media screen and (max-width: 800px) and (min-width: 601px) {
 
     .about.active .icon {
-        width: 50px;
-        height: 50px;
-        font-size: 30px;
+        width: 45px;
+        height: 45px;
+        font-size: 27px;
         top: -450px;
-        left: -1px;
+        left: 5px;
     }
 
     .text-area.show {
         transform: scale(0.8);
-        bottom: 300px;
+        bottom: 500px;
     }
 
     .text-area .card img {
@@ -757,17 +757,17 @@ header {
 @media screen and (max-width: 600px) and (min-width: 401px) {
 
     .about.active .icon {
-        width: 30px;
-        height: 30px;
-        font-size: 20px;
+        width: 27px;
+        height: 27px;
+        font-size: 15px;
         top: -420px;
-        left: 2px;
+        left: 5px;
         
     }
 
     .text-area.show {
         transform: scale(0.8);
-        bottom: 500px;
+        margin-top: -220px;
     }
 
     .text-area .card img {
@@ -808,13 +808,13 @@ header {
         width: 20px;
         height: 20px;
         font-size: 10px;
-        top: -420px;
-        left: 20px;
+        margin-top: -450px;
+        left: 15px;
     }
 
     .text-area.show {
         transform: scale(0.8);
-        bottom: 1000px;
+        margin-top: -450px;
     }
 
     .text-area .card img {
@@ -856,14 +856,20 @@ header {
 @media screen and (max-width: 600px) and (pointer: coarse) and (orientation: portrait) {
 
     .about.active .icon {
-        width: 35px;
-        height: 35px;
-        font-size: 22px;
-        top: -600px;
+        width: 30px;
+        height: 30px;
+        font-size: 17px;
+        top: -550px;
+        left: 2px;
+    }
+
+    .about-grid {
+        justify-items: center;
+        grid-template-columns: 1fr;   /* cards centrados */
     }
 
     .text-area.show {
-        bottom: 600px;
+        margin-top: -600px;
     }
 
     .text-area h2 {
@@ -876,7 +882,7 @@ header {
     }
 
     .card:hover {
-        transform: scale(0.87);
+        transform: scale(0.9);
     }
 
     .text-area p,
