@@ -1201,14 +1201,14 @@ header {
 
     .project-selection h1 {
         font-size: 15px;
-        margin-bottom: 40px;
+        margin-bottom: 70px;
         transform: scale(0.65);
     }
 
     .project-selection-icon {
         gap: 40px;
         transform: scale(0.5);
-        margin-top: 15px;
+        margin-top: 0px;
     }
 
     /* Shrink the icon images themselves */
@@ -1229,14 +1229,14 @@ header {
     }
 
     .project-selection-icon {
-        gap: 50px;
+        gap: 30px;
         transform: scale(0.5);
-        margin-top: 0px;
+        margin-bottom: 70px;
     }
 
     /* Shrink the icon images themselves */
     .project-selection-icon .project {
-        width: 100px;    /* adjust as needed */
+        width: 70px;    /* adjust as needed */
         transform: scale(0.9);
     }
 
@@ -1418,8 +1418,8 @@ header {
     }
 
     .service-box {
-        width: min(150px, 28vw);
-        height: min(150px, 28vw);
+        width: min(130px, 28vw);
+        height: min(130px, 28vw);
         font-size: 16px;
         border-radius: 15px;
     }
@@ -1440,7 +1440,7 @@ header {
     .service-box {
         width: 100px;
         height: 100px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .service-title {
@@ -1452,19 +1452,15 @@ header {
 @media screen and (max-width: 400px) {
 
     .service-selection {
-        padding-top: 100px;   /* move up even more */
+        padding-top: 120px;   /* move up even more */
         gap: 25px;
     }
 
     .service-box {
         width: 80px;
         height: 80px;
-        font-size: 13px;
+        font-size: 10px;
         border-radius: 12px;
-    }
-
-    .service-title {
-        font-size: 20px;
     }
 }
 
@@ -1474,13 +1470,13 @@ header {
     .service-selection {
         flex-direction: column;     /* STACKED */
         gap: 25px;
-        padding-top: 100px;
+        padding-top: 90px;
     }
 
     .service-box {
-        width: 120px;
-        height: 120px;
-        font-size: 14px;
+        width: 170px;
+        height: 170px;
+        font-size: 16px;
         transform: scale(0.95);
     }
 
