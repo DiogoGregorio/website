@@ -649,7 +649,7 @@ header {
 
     .text-area.show {
         transform: scale(0.95);
-        margin-top: -300px;
+        margin-top: -250px;
     }
 
     .text-area .card img {
@@ -674,13 +674,13 @@ header {
         width: 50px;
         height: 50px;
         font-size: 30px;
-        top: -250px;
+        top: -220px;
         left: 15px;
     }
 
     .text-area.show {
         transform: scale(0.9);
-        margin-top: -300px;
+        margin-top: -200px;
     }
 
     .text-area .card img {
@@ -717,13 +717,13 @@ header {
         width: 45px;
         height: 45px;
         font-size: 27px;
-        top: -450px;
+        top: -350px;
         left: 15px;
     }
 
     .text-area.show {
         transform: scale(0.8);
-        margin-top: -450px;
+        margin-top: -250px;
     }
 
     .text-area .card img {
@@ -757,10 +757,10 @@ header {
 @media screen and (max-width: 600px) and (min-width: 401px) {
 
     .about.active .icon {
-        width: 27px;
-        height: 27px;
+        width: 30px;
+        height: 30px;
         font-size: 15px;
-        top: -400px;
+        top: -350px;
         left: 15px;
         
     }
@@ -776,7 +776,7 @@ header {
     }
 
     .text-area h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .card {
@@ -808,13 +808,19 @@ header {
         width: 30px;
         height: 30px;
         font-size: 13px;
-        margin-top: -450px;
+        margin-top: -350px;
         left: 15px;
     }
 
+    .about-grid {
+        justify-items: center;
+        grid-template-columns: 1fr;   /* cards centrados */
+    }
+
+
     .text-area.show {
-        transform: scale(0.8);
-        margin-top: -450px;
+        /* transform: scale(0.8); */
+        margin-top: -350px;
     }
 
     .text-area .card img {
@@ -827,7 +833,11 @@ header {
     }
 
     .card {
-        transform: scale(0.75);
+        transform: scale(0.75);  
+    }
+
+    .card:hover {
+        transform: scale(0.9);
     }
 
     .text-area p,
@@ -856,10 +866,10 @@ header {
 @media screen and (max-width: 600px) and (pointer: coarse) and (orientation: portrait) {
 
     .about.active .icon {
-        width: 30px;
-        height: 30px;
-        font-size: 17px;
-        top: -30px;
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
+        margin-top: -50px;
         left: 2px;
     }
 
@@ -879,10 +889,6 @@ header {
     .card {
         transform: scale(0.85);
         right: 2px
-    }
-
-    .card:hover {
-        transform: scale(0.9);
     }
 
     .text-area p,
