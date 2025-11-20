@@ -24,7 +24,7 @@ Home:
 
 
 About:
-1201< X <1500  -> 
+1201< X <1500  -> sem problemas
 
 1001< X <1200  -> 
 
@@ -32,23 +32,37 @@ About:
 
 601<  X	<800  ->  
 
-401<  X	<600  ->  
+401<  X	<600  -> sem problemas
 
       X	<400  -> 
+
  	Phone -> 
+
 
 Portfolio:
-1001< X <1200  -> 
+1001< X <1200  -> subir project-display show; pôr o text-area-porfolio show mais à esquerda
 
-801<  X	<1000  -> 
+801<  X	<1000  -> subir project-display show; Diminuir o size de project-active-icon para 85%, assim como as fontsizes do text-area-porfolio show pôr o text-area-porfolio show mais à esquerda
 
-601<  X	<800  ->  
+601<  X	<800  ->  subir project-display show; Diminuir o size de project-active-icon para 75%, assim como as fontsizes do text-area-porfolio show; pôr o text-area-porfolio show mais à esquerda
 
-401<  X	<600  ->  
+401<  X	<600  ->   subir project-display show; Diminuir o size de project-active-icon para 60%, assim como as fontsizes do text-area-porfolio show; pôr o text-area-porfolio show mais à esquerda
 
-      X	<400  -> 
+      X	<400  ->  subir project-display show; Diminuir o size de project-active-icon para 45%, assim como as fontsizes do text-area-porfolio show; pôr o text-area-porfolio show mais à esquerda
 
- 	Phone -> 
+ 	Phone -> Subir project-display show; Diminuir size project-active-icon para 40%; text-area-porfolio show imenso para a esquerda
+
+Service: 
+
+801<  X	<1000  -> Diminuir para 75% o tamanho de tudo no service-info show; service-title show diminui para 90%
+
+601<  X	<800  ->  Diminuir para 65% o tamanho de tudo no service-info show; service-title show diminui para 80%
+
+401<  X	<600  ->  Diminuir para metade o tamanho de tudo no service-info show; service-title show diminui para 75%
+
+      X	<400  ->  Diminuir para 40% o tamanho de tudo no service-info show; service-title show diminui para 65%
+
+ 	Phone -> O display tem de ser service-title show no sitio onde está, service-img diretamente por baixo a 65% e cada column (Why I fit e Skills to Strengthen) side by side por baixo
 
 
 
