@@ -1501,7 +1501,7 @@ header {
     }
 
     .service-info.show {
-        transform: scale(0.75);
+        margin-top: auto;
     }
 
     .service-title.show {
@@ -1529,7 +1529,7 @@ header {
     }
 
     .service-info.show {
-        transform: scale(0.65);
+        margin-top: auto;
     }
 
     .service-title.show {
@@ -1557,11 +1557,12 @@ header {
     }
 
     .service-info.show {
-        transform: scale(0.5);
+        margin-top: auto
     }
 
     .service-title.show {
-        transform: scale(0.75);
+        transform: scale(0.55);
+        margin-top: auto;
     }
 
 }
@@ -1582,11 +1583,12 @@ header {
     }
 
     .service-info.show {
-        transform: scale(0.40);
+        margin-top: auto;
     }
 
     .service-title.show {
-        transform: scale(0.65);
+        transform: scale(0.4);
+        margin-top: auto;
     }
 
 }
@@ -1612,10 +1614,19 @@ header {
     }
 
     .service-info.show {
-        display: grid;
-        grid-template-columns: 1fr 1fr; /* side-by-side columns */
+        display: flex;
+        grid-template-columns:1fr 1fr 1fr; /* side-by-side columns */
         gap: 20px;
         justify-items: center;
+        margin-top: 0px;
+    }
+
+    .service-info.show h3 {
+        font-size: 12px;
+    }
+
+    .service-info.show li {
+        font-size: 8px;
     }
 
     .service-img {
@@ -1624,7 +1635,7 @@ header {
     }
 
     .service-title.show {
-        transform: scale(1); /* stays where it is */
+        transform: scale(0.6); /* stays where it is */
     }
 
 }
