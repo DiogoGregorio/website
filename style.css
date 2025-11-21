@@ -1508,6 +1508,14 @@ header {
         transform: scale(0.9);
     }
 
+    .service-img {
+        width: 180px;
+    }
+
+    .service-info {
+        grid-template-columns: 0.7fr 1.3fr 1.3fr;
+    }
+
 }
 
 /* 601 < X < 800 */
@@ -1535,6 +1543,15 @@ header {
     .service-title.show {
         transform: scale(0.8);
     }
+
+    .service-img {
+        width: 150px;
+    }
+
+    .service-info {
+        grid-template-columns: 0.6fr 1.3fr 1.3fr;
+    }
+
 
 }
 
@@ -1565,6 +1582,15 @@ header {
         margin-top: auto;
     }
 
+    .service-img {
+        width: 120px;
+    }
+
+    .service-info {
+        grid-template-columns: 1fr 1.2fr 1.2fr;
+    }
+
+
 }
 
 /* X < 400 */
@@ -1590,6 +1616,16 @@ header {
         transform: scale(0.4);
         margin-top: auto;
     }
+
+    .service-img {
+        width: 95px;
+    }
+
+    .service-info {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
 
 }
 
