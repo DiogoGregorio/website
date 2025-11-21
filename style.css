@@ -1334,6 +1334,12 @@ header {
         margin-top: -65px;
     }
 
+    /* icon next to title */
+    .project-display {
+        flex-direction: column; /* stack elements */
+        align-items: center;    /* center everything */
+    }
+
     /* Shrink the icon images themselves */
     .project-selection-icon .project {
         width: 200px;    /* adjust as needed */
@@ -1345,16 +1351,28 @@ header {
     }
 
     .project-active-icon {
-        transform: scale(0.40);
+        transform: scale(0.45);
+        order: 1; /* first element */
+        text-align: center;
+
     }
 
     .text-area-porfolio.show {
         margin-left: 0px;  /* bem encostado à esquerda */
+        order: 2;
+
     }
 
     .text-area-porfolio.show h2 { font-size: 15px; }
     .text-area-porfolio.show p { font-size: 10px; }
 
+    /* cards moved below everything */
+    .card-portfolio-container {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+    }
+    
 }
 
 /* SERVICE */
