@@ -620,7 +620,7 @@ header {
 
     .text-area.show {
         /* transform: scale(0.90); */
-        top: -52px;
+        top: -54px;
     }
 
     .text-area .card img {
@@ -649,7 +649,7 @@ header {
 
     .text-area.show {
         transform: scale(0.95);
-        margin-top: -150px;
+        margin-top: -100px;
     }
 
     .text-area .card img {
@@ -675,12 +675,12 @@ header {
         height: 50px;
         font-size: 30px;
         top: -200px;
-        left: 15px;
+        left: 17px;
     }
 
     .text-area.show {
         transform: scale(0.9);
-        margin-top: -120px;
+        margin-top: -110px;
     }
 
     .text-area .card img {
@@ -717,13 +717,13 @@ header {
         width: 45px;
         height: 45px;
         font-size: 27px;
-        top: -350px;
-        left: 12px;
+        top: -370px;
+        left: 17px;
     }
 
     .text-area.show {
         transform: scale(0.8);
-        margin-top: -200px;
+        margin-top: -190px;
     }
 
     .text-area .card img {
@@ -761,7 +761,7 @@ header {
         height: 35px;
         font-size: 20px;
         top: -350px;
-        left: 14px;
+        left: 16px;
         
     }
 
@@ -807,9 +807,9 @@ header {
     .about.active .icon {
         width: 30px;
         height: 30px;
-        font-size: 15px;
-        margin-top: -420px;
-        left: 15px;
+        font-size: 20px;
+        margin-top: -430px;
+        left: 17px;
     }
 
     .about-grid {
@@ -820,7 +820,7 @@ header {
 
     .text-area.show {
         transform: scale(0.9);
-        margin-top: -270px;
+        margin-top: -250px;
     }
 
     .text-area .card img {
@@ -833,11 +833,11 @@ header {
     }
 
     .card {
-        transform: scale(0.75);  
+        transform: scale(0.85);  
     }
 
     .card:hover {
-        transform: scale(0.9);
+        transform: scale(0.95);
     }
 
     .text-area p,
@@ -869,8 +869,8 @@ header {
         width: 40px;
         height: 40px;
         font-size: 22px;
-        margin-top: -75px;
-        left: 2px;
+        margin-top: -85px;
+        left: 5px;
     }
 
     .about-grid {
