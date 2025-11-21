@@ -1161,7 +1161,7 @@ header {
     }
 
     .project-display.show {
-        margin-top: -40px; /* subir */
+        margin-top: -50px; /* subir */
     }
 
     .text-area-porfolio.show {
@@ -1177,16 +1177,18 @@ header {
         font-size: 23px;
         margin-bottom: 35px;
         transform: scale(0.8);
+        left: 5px;
     }
 
     .project-selection-icon {
         gap: 70px;
         transform: scale(0.8);
-        margin-top: 15px;
+        margin-top: 5px;
     }
 
     .project-display.show {
-        margin-top: -50px; /* subir */
+        margin-top: -60px; /* subir */
+        transform: scale(0.9);
     }
 
     .project-active-icon {
@@ -1197,8 +1199,8 @@ header {
         margin-left: 40px; /* mais à esquerda */
     }
 
-    .text-area-porfolio.show h2 { font-size: 24px; }
-    .text-area-porfolio.show p { font-size: 15px; }
+    .text-area-porfolio.show h2 { font-size: 22px; }
+    .text-area-porfolio.show p { font-size: 13px; }
 
 }
 
@@ -1207,14 +1209,14 @@ header {
 
     .project-selection h1 {
         font-size: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 65px;
         transform: scale(0.75);
     }
 
     .project-selection-icon {
         gap: 30px;
         transform: scale(0.7);
-        margin-top: 0px;
+        margin-top: -15px;
     }
 
     /* Shrink the icon images themselves */
@@ -1228,15 +1230,15 @@ header {
     }
 
     .project-active-icon {
-        transform: scale(0.75); 
+        transform: scale(0.65); 
     }
 
     .text-area-porfolio.show {
-        margin-left: 35px;
+        margin-left: 25px;
     }
 
-    .text-area-porfolio.show h2 { font-size: 22px; }
-    .text-area-porfolio.show p { font-size: 14px; }
+    .text-area-porfolio.show h2 { font-size: 18px; }
+    .text-area-porfolio.show p { font-size: 11px; }
 
 }
 
@@ -1245,36 +1247,36 @@ header {
 
     .project-selection h1 {
         font-size: 15px;
-        margin-bottom: 70px;
+        margin-bottom: 80px;
         transform: scale(0.65);
     }
 
     .project-selection-icon {
         gap: 40px;
         transform: scale(0.5);
-        margin-top: 0px;
+        margin-top: -20px;
     }
 
     /* Shrink the icon images themselves */
     .project-selection-icon .project {
         width: 120px;    /* adjust as needed */
-        transform: scale(0.9);
+        transform: scale(0.8);
     }
 
     .project-display.show {
-        margin-top: -70px; /* subir */
+        margin-top: -80px; /* subir */
     }
 
     .project-active-icon {
-        transform: scale(0.60);
+        transform: scale(0.50);
     }
 
     .text-area-porfolio.show {
-        margin-left: 25px;
+        margin-left: 15px;
     }
 
-    .text-area-porfolio.show h2 { font-size: 20px; }
-    .text-area-porfolio.show p { font-size: 13px; }
+    .text-area-porfolio.show h2 { font-size: 15px; }
+    .text-area-porfolio.show p { font-size: 9px; }
 
 }
 
@@ -1283,36 +1285,36 @@ header {
 
     .project-selection h1 {
         font-size: 12px;
-        margin-bottom: 50px;
+        margin-bottom: 65px;
         transform: scale(0.7);
     }
 
     .project-selection-icon {
         gap: 30px;
-        transform: scale(0.5);
-        margin-bottom: 70px;
+        transform: scale(0.6);
+        margin-bottom: 100px;
     }
 
     /* Shrink the icon images themselves */
     .project-selection-icon .project {
         width: 70px;    /* adjust as needed */
-        transform: scale(0.9);
+        transform: scale(0.7);
     }
 
     .project-display.show {
-        margin-top: -85px; /* subir */
+        margin-top: -95px; /* subir */
     }
 
     .project-active-icon {
-        transform: scale(0.45);
+        transform: scale(0.35);
     }
 
     .text-area-porfolio.show {
-        margin-left: 15px;
+        margin-left: 0px;
     }
 
-    .text-area-porfolio.show h2 { font-size: 18px; }
-    .text-area-porfolio.show p { font-size: 12px; }
+    .text-area-porfolio.show h2 { font-size: 13px; }
+    .text-area-porfolio.show p { font-size: 7px; }
 
 }
 
@@ -1329,7 +1331,7 @@ header {
         gap: 20px;
         flex-direction: column;   /* << now stacked vertically */
         align-items: center;      /* center the column */
-        margin-top: -50px;
+        margin-top: -65px;
     }
 
     /* Shrink the icon images themselves */
@@ -1339,7 +1341,7 @@ header {
     }
 
     .project-display.show {
-        margin-top: -100px; /* subir muito */
+        margin-top: -115px; /* subir muito */
     }
 
     .project-active-icon {
@@ -1347,11 +1349,11 @@ header {
     }
 
     .text-area-porfolio.show {
-        margin-left: 5px;  /* bem encostado à esquerda */
+        margin-left: 0px;  /* bem encostado à esquerda */
     }
 
-    .text-area-porfolio.show h2 { font-size: 18px; }
-    .text-area-porfolio.show p { font-size: 12px; }
+    .text-area-porfolio.show h2 { font-size: 15px; }
+    .text-area-porfolio.show p { font-size: 10px; }
 
 }
 
