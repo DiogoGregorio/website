@@ -1187,7 +1187,7 @@ header {
     }
 
     .project-display.show {
-        margin-top: -60px; /* subir */
+        margin-top: -65px; /* subir */
         transform: scale(0.9);
     }
 
@@ -1226,7 +1226,7 @@ header {
     }
 
     .project-display.show {
-        margin-top: -60px; /* subir */
+        margin-top: -65px; /* subir */
     }
 
     .project-active-icon {
@@ -1264,7 +1264,7 @@ header {
     }
 
     .project-display.show {
-        margin-top: -80px; /* subir */
+        margin-top: -90px; /* subir */
     }
 
     .project-active-icon {
@@ -1272,7 +1272,7 @@ header {
     }
 
     .text-area-porfolio.show {
-        margin-left: 15px;
+        margin-left: 0;
     }
 
     .text-area-porfolio.show h2 { font-size: 15px; }
@@ -1302,7 +1302,7 @@ header {
     }
 
     .project-display.show {
-        margin-top: -95px; /* subir */
+        margin-top: -100px; /* subir */
     }
 
     .project-active-icon {
@@ -1310,11 +1310,19 @@ header {
     }
 
     .text-area-porfolio.show {
-        margin-left: 0px;
+        margin-left: -10px;
     }
 
     .text-area-porfolio.show h2 { font-size: 13px; }
     .text-area-porfolio.show p { font-size: 7px; }
+
+    .card-portfolio h3 {
+        font-size: 12px;
+    }
+
+    .card-portfolio span {
+        font-size: 10px;
+    }
 
 }
 
@@ -1324,14 +1332,15 @@ header {
     .project-selection h1 {
         font-size: 17px;
         margin-top: -20px;   /* << raises the text */
-        transform: scale(0.8);
+        transform: scale(0.9);
     }
 
     .project-selection-icon {
         gap: 20px;
         flex-direction: column;   /* << now stacked vertically */
         align-items: center;      /* center the column */
-        margin-top: -65px;
+        margin-top: -75px;
+        width: 85%;
     }
 
     /* icon next to title */
@@ -1351,7 +1360,7 @@ header {
     }
 
     .project-active-icon {
-        transform: scale(0.45);
+        transform: scale(0.55);
         order: 1; /* first element */
         text-align: center;
 
@@ -1360,7 +1369,7 @@ header {
     .text-area-porfolio.show {
         margin-left: 0px;  /* bem encostado à esquerda */
         order: 2;
-
+        margin-top: -20px;
     }
 
     .text-area-porfolio.show h2 { font-size: 15px; }
