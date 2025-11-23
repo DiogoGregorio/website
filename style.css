@@ -1360,7 +1360,7 @@ header {
     }
 
     .project-active-icon {
-        transform: scale(0.55);
+        transform: scale(0.65);
         order: 1; /* first element */
         text-align: center;
 
