@@ -1187,7 +1187,7 @@ header {
     }
 
     .project-display.show {
-        margin-top: -65px; /* subir */
+        margin-top: -75px; /* subir */
         transform: scale(0.9);
     }
 
@@ -1196,7 +1196,7 @@ header {
     }
 
     .text-area-porfolio.show {
-        margin-left: 40px; /* mais à esquerda */
+        margin-left: 0px; /* mais à esquerda */
     }
 
     .text-area-porfolio.show h2 { font-size: 22px; }
@@ -1226,7 +1226,7 @@ header {
     }
 
     .project-display.show {
-        margin-top: -65px; /* subir */
+        margin-top: -75px; /* subir */
     }
 
     .project-active-icon {
@@ -1234,7 +1234,7 @@ header {
     }
 
     .text-area-porfolio.show {
-        margin-left: 25px;
+        margin-left: 0px;
     }
 
     .text-area-porfolio.show h2 { font-size: 18px; }
@@ -1264,7 +1264,7 @@ header {
     }
 
     .project-display.show {
-        margin-top: -90px; /* subir */
+        margin-top: -100px; /* subir */
     }
 
     .project-active-icon {
@@ -1272,7 +1272,7 @@ header {
     }
 
     .text-area-porfolio.show {
-        margin-left: 0;
+        margin-left: -10px;
     }
 
     .text-area-porfolio.show h2 { font-size: 15px; }
@@ -1285,14 +1285,14 @@ header {
 
     .project-selection h1 {
         font-size: 12px;
-        margin-bottom: 65px;
+        margin-bottom: 85px;
         transform: scale(0.7);
     }
 
     .project-selection-icon {
         gap: 30px;
         transform: scale(0.6);
-        margin-bottom: 100px;
+        margin-bottom: 200px;
     }
 
     /* Shrink the icon images themselves */
@@ -1302,7 +1302,7 @@ header {
     }
 
     .project-display.show {
-        margin-top: -100px; /* subir */
+        margin-top: -120px; /* subir */
     }
 
     .project-active-icon {
@@ -1310,7 +1310,7 @@ header {
     }
 
     .text-area-porfolio.show {
-        margin-left: -10px;
+        margin-left: -30px;
     }
 
     .text-area-porfolio.show h2 { font-size: 13px; }
@@ -1339,8 +1339,8 @@ header {
         gap: 20px;
         flex-direction: column;   /* << now stacked vertically */
         align-items: center;      /* center the column */
-        margin-top: -75px;
-        width: 85%;
+        margin-top: -85px;
+        width: 65%;
     }
 
     /* icon next to title */
