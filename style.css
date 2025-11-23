@@ -1666,8 +1666,9 @@ header {
     }
 
     .service-info {
-        grid-template-columns: 1fr;
-        gap: 25px;
+        grid-template-columns: 0.4fr 1.8fr 1.8fr;
+        align-items: flex-start;
+        gap: 5px;
     }
 
     .service-info h3 { font-size: 11px; }
