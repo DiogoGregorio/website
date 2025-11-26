@@ -620,7 +620,7 @@ header {
 
     .text-area.show {
         /* transform: scale(0.90); */
-        top: -54px;
+        top: -58px;
     }
 
     .text-area .card img {
@@ -649,7 +649,7 @@ header {
 
     .text-area.show {
         transform: scale(0.95);
-        margin-top: -70px;
+        margin-top: -65x;
     }
 
     .text-area .card img {
@@ -674,7 +674,7 @@ header {
         width: 50px;
         height: 50px;
         font-size: 30px;
-        top: -210px;
+        top: -215px;
         left: 23px;
     }
 
@@ -718,12 +718,12 @@ header {
         height: 45px;
         font-size: 27px;
         top: -370px;
-        left: 26px;
+        left: 28px;
     }
 
     .text-area.show {
-        transform: scale(0.8);
-        margin-top: -175px;
+        transform: scale(0.9);
+        margin-top: -170px;
     }
 
     .text-area .card img {
@@ -760,14 +760,14 @@ header {
         width: 35px;
         height: 35px;
         font-size: 20px;
-        top: -350px;
-        left: 20px;
+        top: -345px;
+        left: 25px;
         
     }
 
     .text-area.show {
         transform: scale(0.8);
-        margin-top: -200px;
+        margin-top: -195px;
     }
 
     .text-area .card img {
@@ -808,7 +808,7 @@ header {
         width: 30px;
         height: 30px;
         font-size: 18px;
-        margin-top: -450px;
+        margin-top: -445px;
         left: 17px;
     }
 
@@ -820,7 +820,7 @@ header {
 
     .text-area.show {
         transform: scale(0.9);
-        margin-top: -220px;
+        margin-top: -205px;
     }
 
     .text-area .card img {
@@ -869,7 +869,7 @@ header {
         width: 35px;
         height: 35px;
         font-size: 19px;
-        margin-top: -200px;
+        margin-top: -300px;
         left: 8px;
     }
 
@@ -879,7 +879,7 @@ header {
     }
 
     .text-area.show {
-        margin-top: -180px;
+        margin-top: -160px;
     }
 
     .text-area h2 {
@@ -1652,12 +1652,13 @@ header {
     }
 
     .service-info.show {
-        margin-top: -5px;
+        margin-top: -15px;
     }
 
     .service-title.show {
         transform: scale(0.4);
-        margin-top: -20px;
+        margin-top: -22px;
+        font-size: 8px;
     }
 
     .service-img {
@@ -1666,13 +1667,13 @@ header {
     }
 
     .service-info {
-        grid-template-columns: 0.4fr 1.8fr 1.8fr;
+        grid-template-columns: 0.4fr 1.7fr 1.7fr;
         align-items: flex-start;
-        gap: 5px;
+        gap: 10px;
     }
 
-    .service-info h3 { font-size: 11px; }
-    .service-info li { font-size: 8px; }
+    .service-info h3 { font-size: 8px; }
+    .service-info li { font-size: 5px; }
 
 }
 

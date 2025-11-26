@@ -26,11 +26,11 @@ Home:
 About:
 1201< X <1500  -> sem problemas
 
-1001< X <1200  -> 
+1001< X <1200  -> sem problemas
 
-801<  X	<1000  -> 
+801<  X	<1000  -> sem problemas
 
-601<  X	<800  ->  
+601<  X	<800  ->  sem problemas
 
 401<  X	<600  -> sem problemas
 
@@ -46,23 +46,23 @@ Portfolio:
 
 601<  X	<800  ->  sem problemas;
 
-401<  X	<600  ->   
+401<  X	<600  ->  sem problemas;
 
-      X	<400  ->  
+      X	<400  ->  sem problemas;
 
- 	Phone -> 
+ 	Phone -> sem problemas;
 
 Service: 
 
-801<  X	<1000  -> 
+801<  X	<1000  -> sem problemas;
 
-601<  X	<800  ->  
+601<  X	<800  ->  sem problemas;
 
-401<  X	<600  ->  
+401<  X	<600  ->  sem problemas;
 
       X	<400  ->  
 
- 	Phone -> 
+ 	Phone ->  sem problemas;
 
 
 
