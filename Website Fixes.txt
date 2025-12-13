@@ -60,7 +60,7 @@ Service:
 
 401<  X	<600  ->  sem problemas;
 
-      X	<400  ->  
+      X	<400  ->  sem problemas;
 
  	Phone ->  sem problemas;
 

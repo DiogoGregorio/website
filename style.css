@@ -723,7 +723,7 @@ header {
 
     .text-area.show {
         transform: scale(0.9);
-        margin-top: -155px;
+        margin-top: -145px;
     }
 
     .text-area .card img {
@@ -820,7 +820,7 @@ header {
 
     .text-area.show {
         transform: scale(0.9);
-        margin-top: -185px;
+        margin-top: -177px;
     }
 
     .text-area .card img {
@@ -869,7 +869,7 @@ header {
         width: 38px;
         height: 38px;
         font-size: 19px;
-        margin-bottom: 100px;
+        margin-bottom: 150px;
         left: 10px;
     }
 
