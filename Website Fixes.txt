@@ -11,17 +11,7 @@ Service -> sem problemas
 
 Resoluções diferentes:
 
-Home:
-801<  X	<1000  -> sem problemas
-
-601<  X	<800  -> sem problemas
-
-401<  X	<600  -> subir home-detail
-
-      X	<400  -> Diminuir a font de "Diogo Gregório" e "Electrical and Computer Engineer" mais um pouco; subir home-detail
-
- 	Phone -> sem problemas
-
+Home: Fully Done 
 
 About:
 1201< X <1500  -> sem problemas
@@ -39,32 +29,7 @@ About:
  	Phone -> 
 
 
-Portfolio:
-1001< X <1200  -> sem problemas
-
-801<  X	<1000  -> sem problemas; 
-
-601<  X	<800  ->  sem problemas;
-
-401<  X	<600  ->  sem problemas;
-
-      X	<400  ->  sem problemas;
-
- 	Phone -> sem problemas;
-
-Service: 
-
-801<  X	<1000  -> sem problemas;
-
-601<  X	<800  ->  sem problemas;
-
-401<  X	<600  ->  sem problemas;
-
-      X	<400  ->  sem problemas;
-
- 	Phone ->  sem problemas;
+Portfolio:Fully Done 
 
 
-
-
-
+Service: Fully Done 
